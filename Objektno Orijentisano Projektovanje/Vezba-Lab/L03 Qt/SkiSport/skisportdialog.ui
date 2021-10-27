@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SkiSportDialog</class>
+ <widget class="QDialog" name="SkiSportDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>563</width>
+    <height>275</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Set up your game</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="font">
+        <font>
+         <pointsize>14</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Santa's speed:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBoxSS">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>14</pointsize>
+        </font>
+       </property>
+       <item>
+        <property name="text">
+         <string>Slow Santa</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Easy-going Santa</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Normal speed Santa</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Santa in a hurry</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Fast&amp;Furious Santa</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Speed of light</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="QLabel" name="label_2">
+       <property name="font">
+        <font>
+         <pointsize>14</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Amount of obstacles:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBoxOA">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>14</pointsize>
+        </font>
+       </property>
+       <item>
+        <property name="text">
+         <string>Obstacle here and there</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>A few obstacles</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>A good amount of obstacles</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>A huge amount of obstacles</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Insane amount of obstacles</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_3">
+     <item>
+      <widget class="QLabel" name="label_3">
+       <property name="font">
+        <font>
+         <pointsize>14</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Mountain height:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBoxMH">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>14</pointsize>
+        </font>
+       </property>
+       <item>
+        <property name="text">
+         <string>Shortest</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Short</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Average</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Tall</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Huge</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_4">
+     <item>
+      <widget class="QLabel" name="label_4">
+       <property name="font">
+        <font>
+         <pointsize>14</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Theme:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBoxT">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>14</pointsize>
+        </font>
+       </property>
+       <item>
+        <property name="text">
+         <string>Jingle Bells</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Jingle Bell Rock</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Rudolph The Red-Nosed Raindeer</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Let It Snow</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Rockin' Around The Christmas Tree</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Here Comes Santa Claus</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>All I Want For Christmas Is You</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>All I Want For Christmas Is WAP</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>WAP</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Jingle Bell Rock - Trap</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Let It Snow - Trap</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Rockin' Around The Christmas Tree - Trap</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Here Comes Santa Claus - Trap</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>The Best Of Both Worlds</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QDialogButtonBox" name="buttonBox">
+     <property name="font">
+      <font>
+       <pointsize>14</pointsize>
+      </font>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="standardButtons">
+      <set>QDialogButtonBox::Close|QDialogButtonBox::Ok</set>
+     </property>
+     <property name="centerButtons">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>accepted()</signal>
+   <receiver>SkiSportDialog</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>248</x>
+     <y>254</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>157</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>rejected()</signal>
+   <receiver>SkiSportDialog</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>316</x>
+     <y>260</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>286</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

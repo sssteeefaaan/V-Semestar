@@ -1,0 +1,35 @@
+.glavni-div
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.forma-div
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.trougao-div
+{
+    display: flex;
+    flex-direction: column;
+}
+
+[class^="polje-div"]
+{
+    width: 50px;
+    height: 30px;
+    border: 1px solid black;
+}
+
+.red-div
+{
+    display: flex;
+    justify-content: center;
+}
+
+.obojeno
+{
+    background-color: blue;
+}

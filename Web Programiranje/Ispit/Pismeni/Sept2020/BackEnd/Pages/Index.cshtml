@@ -1,0 +1,35 @@
+@page
+@using Pages
+@model IndexModel
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Hello";
+}
+@section Script{
+    <script src="Scripts/main.js"></script>
+}
+@section Style{
+    <link rel=stylesheet href="Styles/stil.css">
+}
+
+<table>
+    <tr>
+        <th>Vrsta</th>
+        <th>Boja</th>
+        <th>Max</th>
+        <th>Trenutno</th>
+        <th>ID</th>
+        <th>Zoo Vrt ID</th>
+    </tr>
+@for(int i=0;i<Model.Stanista.Count;i++)
+{
+    <tr>
+        <td>@Model.Stanista[i].Vrsta</td>
+        <td>@Model.Stanista[i].Boja</td>
+        <td>@Model.Stanista[i].Max</td>
+        <td>@Model.Stanista[i].Trenutno</td>
+        <td>@Model.Stanista[i].ID</td>
+        <td>@Model.Stanista[i].ZooVrtID</td>
+    </tr>
+}
+</table>

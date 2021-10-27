@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+    </head>
+    <body>
+        <script>
+
+            // MAP
+            // *Kreira novi niz sa rezultatima koji se dobijaju primenom prosleđene funkcije nad svakim elementom niza
+
+            let array = [1, 4, 9, 16];
+            console.log(array);
+
+            let arrayMap1 = array.map(x => x*2);
+            console.log(arrayMap1);
+
+            let arrayMap2 = array.map(x => {return x*2;});
+            console.log(arrayMap2);
+
+            let arrayMap3 = array.map(function(x){return x*2;});
+            console.log(arrayMap3);
+            
+        </script>
+    </body>
+</html>

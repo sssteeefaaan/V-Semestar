@@ -1,0 +1,5 @@
+Nabrojati listu bekhend tehnologija i opisati ih
+Napisati Typescript klase neophodne za implementaciju stabla
+Napisati Typescript dizajn obrazac
+Jedno se ponovilo-primena dizajn paterna u Typescriptu
+Objasniti preko kojih protokola i kako komuniciraju klijent i server

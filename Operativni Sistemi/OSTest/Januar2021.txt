@@ -1,0 +1,74 @@
+Januar 2021
+	1. Pitanje:
+		Kernel mode: fork(), semSignal(S)
+		User mode: a = sin(3.14)
+	
+	2. Pitanje:
+		a) Read()
+			Proces se nalazio u stanju Running (Izvršava se) na CPU, a pri pozivu ove funkcije, s obzirom da se radi o sistemskom pozivu, nastaje trap i prelazi se na obradu prekidne rutine, a s obzirom da se radi o sistemskom pozivu koji komunicira sa perifernim uređajem/file sistemom, onda dolazi do čekanja, pa se ovaj proces blokira i prelazi u red čekanja na U/I => BLOKIRAN
+		b) semSignal(S), pri čemu je semafor blokiran na procesu višeg prioriteta
+			Proces se nalazio u stanju Running (Izvršava se) na CPU, semSignal je sistemski poziv, pa nastaje trap i obrada prekidne rutine, koja odblokira jedan od procesa koji čekaju na semaforu S, po završetku obrade prekidne rutine, short time scheduler vidi da je proces višeg prioriteta pristigao u READY queue, pa vraća proces koji se izvršavao na procesoiru u READY stanje, dok ovaj prelazi u stanje IZVRŠAVA SE (contexyt switch)
+		c) test&set() instrukcija
+			Proces se nalazio u Running mode-u i nakon izvršavanja ove atomične instrukcije, ostaje u Running mode-u
+	
+	3. Pitanje P1(T11, T12), P2 (T21, T22)
+		a) Nit T11 poziva funkciju semWait() nad semaforom s=1 (KLT implementacija)
+			Vrši se sistemski poziv, dešava se trap, prelazi se u kernel režim, vrši se obrada prekidne rutine, s obzirom da semWait za semafor s=1 neće blokirati proces, po izvršavanju ovog sistemskog poziva, nit T11 nastavlja sa svojim izvršavanjem
+		b) Nit T22 poziva receieve() funkciju, ali se tehnikom omotavanja (jacketing) u biblioteci niti sprečava njeno blokiranje, a niti su implementirane na nivou korisnika (ULT)
+			Iako je receive() sistemski poziv, s obzirom da je implementiran uz pomoć omotavanja, onda će aplikacija ispitati stanje i ukoliko nema podatak u prijemnom buffer (sad ovo zavisi od same komunikacije, da li je rendez-vous itd), ukoliko bi receive blokirao proces, onda će se omotavanjem bloikirati nit T22 i preći na izvršavanje niti T21
+		c) Istekao je vremenski kvant dodeljen niti T11, a niti su implementirane na nivou korisnika (ULT)
+			Ukoliko proces P1 i dalje ima vreme u svvom dodeljenom kvantu, onda će se izvršiti T12 nit, a ukoliko je istekao kvant za ceo proces, onda nastaje zamena konteksta i izvršava se proces P2 sa nitima T21 ili T22
+			
+	4. Kako kad ne znam ovo u VS
+	
+	5. U računarskom sistemu prikazanom grafom dodele resursa postoji mogućnost za uzajamno blokiranje, s obzirom da postoji ciklus (petlja) u grafu, što je jedan od 4 potrebnih uslova,
+		Potrebno je:
+			- Uzajamno isključivanje (Mutual exclusion)
+				takođe zadovoljen uslov, s obzirom da svi resursi imaju po samo jednu instancu
+			- Drži i čekaj (Hold-and-wait)
+				Ovo ne znamo da li je slučaj
+			- Bez prekidanja (No preemption)
+				Takođe ne znamo da li je slučaj
+		Ukoliko za sistem važi da procesi čekaju dok mu ne budu dodeljeni ostali resursi, kao i to da se ne mogu oduzimati resursi procesima (Hold-and-wait i No preemption uslovi zadovoljeni), onda ovaj sistem se nalazi u stanju uzajmanog blokiranja (smrtnog zagrljaja), a blokirani su procesi
+		P1 koji drži Ra i čeka na Rb,
+		P2 koji drži Rb i čeka na Rc,
+		P3 koji drži Rc i čeka na Rd i
+		P4 koji drži Rd i čeka na Ra
+		
+	6. U 5. trenutku se izvršava proces:
+		a) C
+		b) D
+		c) A je završio, E je krenuo
+		
+	7. Prostor procesa je ograničen na veličinu fizičke memorije, što je 2^21 * 4KB = 8GB
+	Format virtuelne adrese je
+	
+				 ___8b________14b_______nzm___
+				|		  |			 |		  |
+				| SEGMENT | STRANICA | Offset |
+				|_________|__________|________|
+	
+		i. Tabela segmenata ima 256 segmenata, odnosno 256 stavki od po 8bita
+		ii. U okviru, kao i u stranici se nalazi 2^12 bajtova
+		iii. U virtualnoj adresi, s obzirom da imamo 256 različitih segmenata, potrebno je 8 bita (2^8 = 256) za segment i 14 bita za stranicu unutar segmenta
+		iv. Svakom segmentu odgovara jedna tabela stranica od po 2^14 stavki
+		v. U svakoj stavci tabele stranica je 21 bit za adresiranje okvira u memoriji (PAGE FRAME NUMBER) + 3 bita (valid/present, modified, referenced) + security bitovi (za pristup)
+		
+	8. Za FIFO bi se zamenila stranica 10 (okvir 7), jer je najranije učitana od svih (6).
+	Za LRU bi se zamenila stranica 3 (okvir 0), jer je referencirana u vremenu 106.
+	Za CLOCK bi se zamenila stranica 5 (okvir 2), jer je prva sledeća na tapetu, koja nije referencirana.
+	
+	9. 	a) Ta = 22.4 ms
+		b) Ta = 121. 92 ms
+		
+	10. Za čitanje 10. bloka je potreban jedan pristup disku (jer je 10. blok direktni link u i-node-u)
+	Za čitanje 600. bloka u i-node-u, potrebno je, na osnovu računice
+		2KB/4B => 512 adresa unutar bloka
+		Direktni: 1-10
+		Jednostruko indikretni: 11 - 522
+		Dvostruko indikretni: 523 - (512*512 + 522)
+		
+		=> 600. blok se nalazi unutar dvostrukog indirekta, što znači da je potrebno 3 pristupa disku
+		1. za pristup bloku dvostrukih indirekta
+		2. za pristup jednostrukih indirekta
+		3. za pristup 600. bloku

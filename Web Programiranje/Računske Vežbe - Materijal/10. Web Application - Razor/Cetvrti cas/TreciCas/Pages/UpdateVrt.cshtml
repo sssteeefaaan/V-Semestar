@@ -1,0 +1,16 @@
+﻿@page
+@using TreciCas.Pages
+@model UpdateVrtModel
+@{
+    ViewData["Title"] = "Izmena podataka o vrtu";
+    Layout = "_Layout";
+}
+<h1>Izmena: @Model.Vrt.Naziv</h1>
+<form method="post">
+    @Html.AntiForgeryToken()
+    <p>Naziv: <input type="text" name="Vrt.Naziv" placeholder="@Model.Vrt.Naziv"></p>
+    <p>Kapacitet: <input type="number" name="Vrt.Kapacitet" placeholder="@Model.Vrt.Kapacitet"></p>
+    <p>M: <input type="number" name="Vrt.M" placeholder="@Model.Vrt.M"></p>
+    <p>N: <input type="number" name="Vrt.N" placeholder="@Model.Vrt.N"></p>
+    <input type="submit" value="Izmeni">
+</form>

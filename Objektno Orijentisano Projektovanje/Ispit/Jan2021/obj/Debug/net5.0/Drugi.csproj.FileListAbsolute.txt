@@ -1,0 +1,16 @@
+C:\Users\stefa\Desktop\Drugi\bin\Debug\net5.0\Drugi.exe
+C:\Users\stefa\Desktop\Drugi\bin\Debug\net5.0\Drugi.deps.json
+C:\Users\stefa\Desktop\Drugi\bin\Debug\net5.0\Drugi.runtimeconfig.json
+C:\Users\stefa\Desktop\Drugi\bin\Debug\net5.0\Drugi.runtimeconfig.dev.json
+C:\Users\stefa\Desktop\Drugi\bin\Debug\net5.0\Drugi.dll
+C:\Users\stefa\Desktop\Drugi\bin\Debug\net5.0\ref\Drugi.dll
+C:\Users\stefa\Desktop\Drugi\bin\Debug\net5.0\Drugi.pdb
+C:\Users\stefa\Desktop\Drugi\obj\Debug\net5.0\Drugi.csprojAssemblyReference.cache
+C:\Users\stefa\Desktop\Drugi\obj\Debug\net5.0\Drugi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\stefa\Desktop\Drugi\obj\Debug\net5.0\Drugi.AssemblyInfoInputs.cache
+C:\Users\stefa\Desktop\Drugi\obj\Debug\net5.0\Drugi.AssemblyInfo.cs
+C:\Users\stefa\Desktop\Drugi\obj\Debug\net5.0\Drugi.csproj.CoreCompileInputs.cache
+C:\Users\stefa\Desktop\Drugi\obj\Debug\net5.0\Drugi.dll
+C:\Users\stefa\Desktop\Drugi\obj\Debug\net5.0\ref\Drugi.dll
+C:\Users\stefa\Desktop\Drugi\obj\Debug\net5.0\Drugi.pdb
+C:\Users\stefa\Desktop\Drugi\obj\Debug\net5.0\Drugi.genruntimeconfig.cache

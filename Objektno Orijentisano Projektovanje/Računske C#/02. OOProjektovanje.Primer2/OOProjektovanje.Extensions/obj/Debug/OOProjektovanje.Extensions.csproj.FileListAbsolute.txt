@@ -1,0 +1,11 @@
+C:\Users\LenovoT440\Desktop\Nastava\OOProjektovanje\OOProjektovanje.Primer1\OOProjektovanje.Extensions\bin\Debug\OOProjektovanje.Extensions.dll
+C:\Users\LenovoT440\Desktop\Nastava\OOProjektovanje\OOProjektovanje.Primer1\OOProjektovanje.Extensions\bin\Debug\OOProjektovanje.Extensions.pdb
+C:\Users\LenovoT440\Desktop\Nastava\OOProjektovanje\OOProjektovanje.Primer1\OOProjektovanje.Extensions\obj\Debug\OOProjektovanje.Extensions.csprojResolveAssemblyReference.cache
+C:\Users\LenovoT440\Desktop\Nastava\OOProjektovanje\OOProjektovanje.Primer1\OOProjektovanje.Extensions\obj\Debug\OOProjektovanje.Extensions.dll
+C:\Users\LenovoT440\Desktop\Nastava\OOProjektovanje\OOProjektovanje.Primer1\OOProjektovanje.Extensions\obj\Debug\OOProjektovanje.Extensions.pdb
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Objektno Orijentisano Projektovanje\Računske C#\02. OOProjektovanje.Primer2\OOProjektovanje.Extensions\bin\Debug\OOProjektovanje.Extensions.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Objektno Orijentisano Projektovanje\Računske C#\02. OOProjektovanje.Primer2\OOProjektovanje.Extensions\bin\Debug\OOProjektovanje.Extensions.pdb
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Objektno Orijentisano Projektovanje\Računske C#\02. OOProjektovanje.Primer2\OOProjektovanje.Extensions\obj\Debug\OOProjektovanje.Extensions.csprojAssemblyReference.cache
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Objektno Orijentisano Projektovanje\Računske C#\02. OOProjektovanje.Primer2\OOProjektovanje.Extensions\obj\Debug\OOProjektovanje.Extensions.csproj.CoreCompileInputs.cache
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Objektno Orijentisano Projektovanje\Računske C#\02. OOProjektovanje.Primer2\OOProjektovanje.Extensions\obj\Debug\OOProjektovanje.Extensions.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Objektno Orijentisano Projektovanje\Računske C#\02. OOProjektovanje.Primer2\OOProjektovanje.Extensions\obj\Debug\OOProjektovanje.Extensions.pdb

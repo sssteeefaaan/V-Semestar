@@ -1,0 +1,59 @@
+.indexDiv{
+    border: 1px solid black;
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color:#232F34;
+    border-radius: 10px;
+    padding: 2%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.indexDiv>h1{
+    text-align: center;
+    color:#F9AA33;
+    margin-bottom: 7.5%;
+}
+
+.indexDiv>form{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+}
+
+.indexDiv>form>select[name="izbor"]
+{
+    width: 100%;
+    background-color:#798F99;
+    text-align: center;
+}
+
+.indexDiv>form>input[value="View"]
+{
+    position:absolute;
+    bottom: 0;
+    right: 0;
+
+    font-weight: bold;
+    background-color: #F9AA33;
+    color:black;
+    border-radius: 10px;
+    border: 1px solid aliceblue;
+    margin: 2%;
+}
+
+.indexDiv>form>input[value="View"]:hover
+{
+    background-color:#C52222;
+}
+
+::placeholder{
+    color:#F9AA33;
+}

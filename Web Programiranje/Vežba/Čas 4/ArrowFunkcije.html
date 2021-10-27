@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+    </head>
+    <body>
+        <script>
+
+            // ARROW FUNKCIJE
+            // Skraćeni način pisanja funkcija (ECMAScript 6 std) "fatarrow" ( => )
+            // Uvek su anonimne ( Poziv samo preko reference )
+            // Ne definišu objekat this
+            // Parametri u zagradi ( Izuzetak ako je samo jedan parametar, onda može i bez zagrade )
+
+            let niz = [ 'košarka', 'fudbal', 'tenis'];
+
+            let long = niz.reduce(function(rez, a){
+                return rez + " " + a;
+            });
+            console.log(long);
+
+            let medium = niz.reduce((rez, a) => { return rez + " " + a;});
+            console.log(medium);
+
+            let short = niz.reduce((rez, a) => rez + " " + a);
+            console.log(short);
+
+        </script>
+    </body>
+</html>

@@ -1,0 +1,32 @@
+﻿Data je kutija (int matrica MxN) sa pomorandžama, dimenzija MxN. Sadržaj te kutije može biti: 
+0 - prazno mesto u kutiji
+1 - pomorandža 
+2 - pokvarena pomorandža
+
+Pokvarene pomorandže mogu pokvariti zdrave pomorandže. Zdrava pomorandža će se pokvariti jedino ako je pokvarena pored nje.
+Svaka pokvarena pomorandža će u jednom trenutku pokvariti svoje direktne susede (bez dijagonala):
+
+1 1 1 0                        1 2 1 0                         2 2 2 0
+1 2 1 1   sledeći trenutak =>  2 2 2 1   sledeći trenutak =>   2 2 2 2
+0 1 0 0                        0 2 0 0                         0 2 0 0
+
+Napisati funkciju kojom se određuje da li se sve zdrave pomorandže mogu pokvariti i u koliko koraka (u prethodnom primeru su se sve pokvarile u 2 koraka).
+Primer matrice u kojoj se nikako ne mogu sve pomorandže pokvariti:
+
+1 1 1 1 1     1 0 1
+0 0 0 0 0  ;  2 1 0  ;  itd
+1 2 1 1 1     0 1 1
+
+Vremenska kompleksnost: O(MxN)
+_______________________________________________________________________________________________________________________________
+Drugi zadatak smo dobili da se ne bismo dosađivali dok smo čekali drugu grupu da odgovara. Taj zadatak se nije ocenjivao, ali 
+je mogao da pobošlja ocenu/utisak u slučaju da prvi nije sasvim dobro odrađen
+
+Dat je string dužine N. Napisati funkciju kojom se određuje prvo slovo koje se nije ponavljalo. Primer:
+
+MAMMALS => L (M se pojavljuje 3 puta, A se pojavljuje 2 puta, S se pojavljuje samo jednom, ali je L prvo slovo koje se pojavljuje samo jednom)
+
+Vremenska kompleksnost: O(N)
+
+https://www.geeksforgeeks.org/minimum-time-required-so-that-all-oranges-become-rotten/
+https://www.geeksforgeeks.org/given-a-string-find-its-first-non-repeating-character/

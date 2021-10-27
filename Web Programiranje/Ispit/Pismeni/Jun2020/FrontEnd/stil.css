@@ -1,0 +1,57 @@
+.Mec{
+    display:flex;
+    flex-direction:column;
+    border:1px solid black;
+    border-radius:20px;
+}
+.MecHeader{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    border:1px solid black;
+    border-radius:20px;
+}
+.MecBody{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    border-radius:20px;
+}
+
+@media only screen and (max-width: 750px)
+{
+    .MecBody{
+        flex-direction:column;
+    }
+}
+
+
+.MecPrviIgrac,.MecInfo,.MecDrugiIgrac{
+    display:flex;
+    flex-direction:column;
+    flex:1 1 30%;
+    border:1px solid black;
+    border-radius:20px;
+}
+
+.Mec *:not(button){
+   margin:0.2%;
+   padding:0.2%;
+}
+
+.MecInfo>div{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.Igrac{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.Igrac img{
+    height:10vw;
+    width:10vw;
+}

@@ -1,0 +1,12 @@
+c:\users\lenovot440\documents\visual studio 2012\Projects\OOProjektovanje1\OOProjektovanje1\bin\Debug\OOProjektovanje1.exe.config
+c:\users\lenovot440\documents\visual studio 2012\Projects\OOProjektovanje1\OOProjektovanje1\bin\Debug\OOProjektovanje1.exe
+c:\users\lenovot440\documents\visual studio 2012\Projects\OOProjektovanje1\OOProjektovanje1\bin\Debug\OOProjektovanje1.pdb
+c:\users\lenovot440\documents\visual studio 2012\Projects\OOProjektovanje1\OOProjektovanje1\obj\Debug\OOProjektovanje1.csprojResolveAssemblyReference.cache
+c:\users\lenovot440\documents\visual studio 2012\Projects\OOProjektovanje1\OOProjektovanje1\obj\Debug\OOProjektovanje1.FormGlavna.resources
+c:\users\lenovot440\documents\visual studio 2012\Projects\OOProjektovanje1\OOProjektovanje1\obj\Debug\OOProjektovanje1.Properties.Resources.resources
+c:\users\lenovot440\documents\visual studio 2012\Projects\OOProjektovanje1\OOProjektovanje1\obj\Debug\OOProjektovanje1.csproj.GenerateResource.Cache
+c:\users\lenovot440\documents\visual studio 2012\Projects\OOProjektovanje1\OOProjektovanje1\obj\Debug\OOProjektovanje1.exe
+c:\users\lenovot440\documents\visual studio 2012\Projects\OOProjektovanje1\OOProjektovanje1\obj\Debug\OOProjektovanje1.pdb
+c:\users\lenovot440\documents\visual studio 2012\Projects\OOProjektovanje1\OOProjektovanje1\bin\Debug\OOProjektovanje.Podaci.dll
+c:\users\lenovot440\documents\visual studio 2012\Projects\OOProjektovanje1\OOProjektovanje1\bin\Debug\OOProjektovanje.Podaci.pdb
+c:\users\lenovot440\documents\visual studio 2012\Projects\OOProjektovanje1\OOProjektovanje1\bin\Debug\OOProjektovanje.Aplikacija.exe.config

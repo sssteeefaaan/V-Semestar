@@ -1,0 +1,45 @@
+.TrougaoContainer{
+    display: flex;
+    flex-direction: column;
+    flex:1 1 100%;
+
+    border: 1px solid black;
+    padding: 1%;
+}
+
+.TrougaoHeader{
+    display: flex;
+    flex-direction: column;
+    flex:1 1 100px;
+
+    border: 1px solid black;
+    padding: 1%;
+}
+
+.TrougaoHeader>*{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.TrougaoNivoi{
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+    overflow: auto;
+}
+
+.Nivo{
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+}
+
+.Polje{
+    border: 1px solid black;
+    height: 1vmax;
+    width: 3vmax;
+    text-align: center;
+    padding: 0.5%;
+    margin: 0.25%;
+}

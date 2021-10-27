@@ -1,0 +1,54 @@
+<RCC>
+    <qresource prefix="/Icons">
+        <file>Icons/001-clipboard.png</file>
+        <file>Icons/002-clipboard.png</file>
+        <file>Icons/003-warning.png</file>
+        <file>Icons/004-file.png</file>
+        <file>Icons/005-cloud.png</file>
+        <file>Icons/006-data leak.png</file>
+        <file>Icons/007-file.png</file>
+        <file>Icons/008-folder.png</file>
+        <file>Icons/009-folder.png</file>
+        <file>Icons/010-file.png</file>
+        <file>Icons/011-folder.png</file>
+        <file>Icons/012-file.png</file>
+        <file>Icons/013-music file.png</file>
+        <file>Icons/014-infected folder.png</file>
+        <file>Icons/015-computer.png</file>
+        <file>Icons/016-folder.png</file>
+        <file>Icons/017-printer.png</file>
+        <file>Icons/018-file.png</file>
+        <file>Icons/019-clipboard.png</file>
+        <file>Icons/020-email.png</file>
+        <file>Icons/021-file.png</file>
+        <file>Icons/022-folder.png</file>
+        <file>Icons/023-file.png</file>
+        <file>Icons/024-curriculum vitae.png</file>
+        <file>Icons/025-file.png</file>
+        <file>Icons/026-sticky note.png</file>
+        <file>Icons/027-file.png</file>
+        <file>Icons/028-search.png</file>
+        <file>Icons/029-deadline.png</file>
+        <file>Icons/030-note.png</file>
+        <file>Icons/031-file.png</file>
+        <file>Icons/032-data leak.png</file>
+        <file>Icons/033-file.png</file>
+        <file>Icons/034-clipboard.png</file>
+        <file>Icons/035-save file.png</file>
+        <file>Icons/036-image file.png</file>
+        <file>Icons/037-folder.png</file>
+        <file>Icons/038-notebook.png</file>
+        <file>Icons/039-file.png</file>
+        <file>Icons/040-file.png</file>
+        <file>Icons/041-email.png</file>
+        <file>Icons/042-file.png</file>
+        <file>Icons/043-document.png</file>
+        <file>Icons/044-file.png</file>
+        <file>Icons/045-cloud.png</file>
+        <file>Icons/046-video file.png</file>
+        <file>Icons/047-file.png</file>
+        <file>Icons/048-clipboard.png</file>
+        <file>Icons/049-file.png</file>
+        <file>Icons/050-clipboard.png</file>
+    </qresource>
+</RCC>

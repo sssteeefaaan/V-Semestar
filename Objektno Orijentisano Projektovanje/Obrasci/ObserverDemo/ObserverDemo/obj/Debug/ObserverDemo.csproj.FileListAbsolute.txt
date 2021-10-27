@@ -1,0 +1,16 @@
+c:\users\petar\documents\visual studio 2015\Projects\ObserverDemo\ObserverDemo\bin\Debug\ObserverDemo.exe.config
+c:\users\petar\documents\visual studio 2015\Projects\ObserverDemo\ObserverDemo\bin\Debug\ObserverDemo.exe
+c:\users\petar\documents\visual studio 2015\Projects\ObserverDemo\ObserverDemo\bin\Debug\ObserverDemo.pdb
+c:\users\petar\documents\visual studio 2015\Projects\ObserverDemo\ObserverDemo\obj\Debug\ObserverDemo.csprojResolveAssemblyReference.cache
+c:\users\petar\documents\visual studio 2015\Projects\ObserverDemo\ObserverDemo\obj\Debug\ObserverDemo.FormMain.resources
+c:\users\petar\documents\visual studio 2015\Projects\ObserverDemo\ObserverDemo\obj\Debug\ObserverDemo.FormTypeClient.resources
+c:\users\petar\documents\visual studio 2015\Projects\ObserverDemo\ObserverDemo\obj\Debug\ObserverDemo.FormTypeServer.resources
+c:\users\petar\documents\visual studio 2015\Projects\ObserverDemo\ObserverDemo\obj\Debug\ObserverDemo.Properties.Resources.resources
+c:\users\petar\documents\visual studio 2015\Projects\ObserverDemo\ObserverDemo\obj\Debug\ObserverDemo.csproj.GenerateResource.Cache
+c:\users\petar\documents\visual studio 2015\Projects\ObserverDemo\ObserverDemo\obj\Debug\ObserverDemo.exe
+c:\users\petar\documents\visual studio 2015\Projects\ObserverDemo\ObserverDemo\obj\Debug\ObserverDemo.pdb
+c:\users\petar\documents\visual studio 2015\Projects\ObserverDemo\ObserverDemo\obj\Debug\ObserverDemo.FormClientB.resources
+c:\users\petar\documents\visual studio 2015\Projects\ObserverDemo\ObserverDemo\bin\Debug\ObserverDemoApi.dll
+c:\users\petar\documents\visual studio 2015\Projects\ObserverDemo\ObserverDemo\bin\Debug\ObserverDemoApi.pdb
+c:\users\petar\documents\visual studio 2015\Projects\ObserverDemo\ObserverDemo\bin\Debug\ObserverAdditionalForms.dll
+c:\users\petar\documents\visual studio 2015\Projects\ObserverDemo\ObserverDemo\bin\Debug\ObserverAdditionalForms.pdb

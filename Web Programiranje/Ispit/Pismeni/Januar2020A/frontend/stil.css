@@ -1,0 +1,57 @@
+.Fabrika{
+    display: flex;
+    flex-direction:row-reverse;
+}
+
+.FabrikaUnos{
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    padding:0.5%;
+}
+
+.FabrikaUnos>*{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 1%;
+    padding: 0.5%;
+}
+
+.FabrikaUnos>div>*{
+    flex:1 1 50%;
+}
+
+.FabrikaPrikaz{
+    display: flex;
+    flex-direction: column;
+    flex:1 1 100%;
+    text-align:center;
+}
+
+.FabrikaSilosi{
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    justify-content: space-evenly;
+}
+
+.Silos{
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-end;
+    height:100%;
+}
+
+.SilosOkvir{
+    border:1px solid black;
+    display:flex;
+    flex-direction:column;
+    justify-content: flex-end;
+    height:100%;
+}
+
+.SilosPopunjenost{
+    width:100%;
+    background-image: linear-gradient(blue, lightblue);
+}

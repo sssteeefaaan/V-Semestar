@@ -1,0 +1,19 @@
+.roditelj
+{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+[class^="d"]
+{
+    background-color: coral;
+    color:white;
+    text-align:center;
+    font-size: 25px;
+    line-height: 100px;
+    
+    height: 100px;
+    flex:0 0 100px;
+    justify-content: space-evenly;
+    margin-top:10px;
+}

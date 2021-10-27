@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+    </head>
+    <body>
+        <script>
+
+            // LAMBDA FUNCKIJE
+            // * Mogućnost da funkcije (višeg reda) primaju druge funkcije kao parametre
+            // kao i da vraćaju funkcije kao rezultate
+
+            function ispis(fun){
+                return function(){
+                    var r=fun.apply(null,arguments);
+                    console.log(r);
+                    return r;
+                };
+            }
+
+            var calc = ispis(function(a, b){ return a + b;});
+
+            var x = calc(5, 10) * 2;
+            console.log(x);
+        </script>
+    </body>
+</html>

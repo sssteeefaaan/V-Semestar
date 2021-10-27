@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+    </head>
+    <body>
+        <script>
+
+            // REDUCE
+            // Funkcija koja vraća finalnu vrednost akumulacione promenljive,
+            // nakon primene prosleđene redukcione funkcije nad svakim elementom niza.
+            // Može imati početnu vrednost akumulatora
+            // Ukoliko se vrednost ne prosledi, akumulator ima vrednost prvog elementa u nizu.
+
+            const array = [1, 2, 3, 4, 5];
+            const sum1 = array.reduce((acc, curr) => acc + curr);
+            console.log(sum1);
+
+            // Sa prosleđenom vrednošću akumulatora
+            const sum2 = array.reduce(function(acc,curr) {return acc + curr;}, 5);
+            console.log(sum2);
+
+        </script>
+    </body>
+</html>

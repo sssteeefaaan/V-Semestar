@@ -1,0 +1,80 @@
+.VideoKlub{
+    display: flex;
+    flex-direction: column;
+
+    border:1px solid black;
+    padding:0.5%;
+}
+
+.VideoKlubHeader{
+    display: flex;
+    flex-direction:row;
+}
+
+.VideoKlubBody{
+    display:flex;
+    flex-direction:row;
+}
+
+.VideoKlubUnos{
+    display: flex;
+    flex-direction:column;
+    width:150px;
+    border:1px solid black;
+    margin:0.5%;
+    padding:0.5%;
+}
+
+.VideoKlubUnosDugmici{
+    display: flex;
+    flex-direction:column;
+}
+
+.VideoKlubUnosRadio{
+    display:flex;
+    flex-direction:row;
+}
+
+.VideoKlubUnosOstalo{
+    display:flex;
+    flex-direction:column;
+}
+
+.VideoKlubPrikaz{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    flex:1 1 70%;
+
+    border:1px solid black;
+    margin:0.5%;
+    padding:0.5%;
+}
+
+.Polica{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    margin:0.5%;
+}
+
+.PolicaDVD{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    width:95%;
+}
+
+.PolicaDVDPrikaz{
+    display: flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    width: 50%;
+    border:1px solid black;
+}
+
+.DVD{
+    background-color:red;
+    border:1px solid black;
+}
+

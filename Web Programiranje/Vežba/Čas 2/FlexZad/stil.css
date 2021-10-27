@@ -1,0 +1,25 @@
+article{
+    display:flex;
+    flex-wrap:wrap;
+    height: 700px;
+    background-color: magenta;
+    align-items: flex-end;
+}
+[class^="d"]{
+    border:1px solid red;
+    background-color: yellow;
+    color:blue;
+    height: 100px;
+    flex: 1 0 100px;
+    text-align: center;
+    font-size: 40px;
+}
+.d2,.d5,.d7
+{
+    order:-1;
+    height:200px;
+}
+.d5{
+    align-self:flex-start;
+    flex-basis:150px;
+}

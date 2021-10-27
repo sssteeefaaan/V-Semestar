@@ -1,0 +1,25 @@
+c:\users\lenovot440\documents\visual studio 2012\Projects\OOProjektovanje.Primer2\OOProjektovanje.Aplikacija\bin\Debug\OOProjektovanje.Aplikacija.exe.config
+c:\users\lenovot440\documents\visual studio 2012\Projects\OOProjektovanje.Primer2\OOProjektovanje.Aplikacija\bin\Debug\OOProjektovanje.Aplikacija.exe
+c:\users\lenovot440\documents\visual studio 2012\Projects\OOProjektovanje.Primer2\OOProjektovanje.Aplikacija\bin\Debug\OOProjektovanje.Aplikacija.pdb
+c:\users\lenovot440\documents\visual studio 2012\Projects\OOProjektovanje.Primer2\OOProjektovanje.Aplikacija\obj\Debug\OOProjektovanje.Aplikacija.csprojResolveAssemblyReference.cache
+c:\users\lenovot440\documents\visual studio 2012\Projects\OOProjektovanje.Primer2\OOProjektovanje.Aplikacija\obj\Debug\OOProjektovanje.Aplikacija.Properties.Resources.resources
+c:\users\lenovot440\documents\visual studio 2012\Projects\OOProjektovanje.Primer2\OOProjektovanje.Aplikacija\obj\Debug\OOProjektovanje.Aplikacija.csproj.GenerateResource.Cache
+c:\users\lenovot440\documents\visual studio 2012\Projects\OOProjektovanje.Primer2\OOProjektovanje.Aplikacija\obj\Debug\OOProjektovanje.Aplikacija.exe
+c:\users\lenovot440\documents\visual studio 2012\Projects\OOProjektovanje.Primer2\OOProjektovanje.Aplikacija\obj\Debug\OOProjektovanje.Aplikacija.pdb
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Objektno Orijentisano Projektovanje\Računske C#\02. OOProjektovanje.Primer2\OOProjektovanje.Aplikacija\bin\Debug\OOProjektovanje.Aplikacija.exe.config
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Objektno Orijentisano Projektovanje\Računske C#\02. OOProjektovanje.Primer2\OOProjektovanje.Aplikacija\bin\Debug\OOProjektovanje.Aplikacija.exe
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Objektno Orijentisano Projektovanje\Računske C#\02. OOProjektovanje.Primer2\OOProjektovanje.Aplikacija\bin\Debug\OOProjektovanje.Aplikacija.pdb
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Objektno Orijentisano Projektovanje\Računske C#\02. OOProjektovanje.Primer2\OOProjektovanje.Aplikacija\bin\Debug\OOProjektovanje.Extensions.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Objektno Orijentisano Projektovanje\Računske C#\02. OOProjektovanje.Primer2\OOProjektovanje.Aplikacija\bin\Debug\OOProjektovanje.Podaci.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Objektno Orijentisano Projektovanje\Računske C#\02. OOProjektovanje.Primer2\OOProjektovanje.Aplikacija\bin\Debug\OOProjektovanje.Extensions.pdb
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Objektno Orijentisano Projektovanje\Računske C#\02. OOProjektovanje.Primer2\OOProjektovanje.Aplikacija\bin\Debug\OOProjektovanje.Podaci.pdb
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Objektno Orijentisano Projektovanje\Računske C#\02. OOProjektovanje.Primer2\OOProjektovanje.Aplikacija\obj\Debug\OOProjektovanje.Aplikacija.csprojAssemblyReference.cache
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Objektno Orijentisano Projektovanje\Računske C#\02. OOProjektovanje.Primer2\OOProjektovanje.Aplikacija\obj\Debug\OOProjektovanje.Aplikacija.FormGlavna.resources
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Objektno Orijentisano Projektovanje\Računske C#\02. OOProjektovanje.Primer2\OOProjektovanje.Aplikacija\obj\Debug\OOProjektovanje.Aplikacija.FormStudent.resources
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Objektno Orijentisano Projektovanje\Računske C#\02. OOProjektovanje.Primer2\OOProjektovanje.Aplikacija\obj\Debug\OOProjektovanje.Aplikacija.FormSvojstva.resources
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Objektno Orijentisano Projektovanje\Računske C#\02. OOProjektovanje.Primer2\OOProjektovanje.Aplikacija\obj\Debug\OOProjektovanje.Aplikacija.Properties.Resources.resources
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Objektno Orijentisano Projektovanje\Računske C#\02. OOProjektovanje.Primer2\OOProjektovanje.Aplikacija\obj\Debug\OOProjektovanje.Aplikacija.csproj.GenerateResource.cache
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Objektno Orijentisano Projektovanje\Računske C#\02. OOProjektovanje.Primer2\OOProjektovanje.Aplikacija\obj\Debug\OOProjektovanje.Aplikacija.csproj.CoreCompileInputs.cache
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Objektno Orijentisano Projektovanje\Računske C#\02. OOProjektovanje.Primer2\OOProjektovanje.Aplikacija\obj\Debug\OOProjektovanje.Aplikacija.csproj.CopyComplete
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Objektno Orijentisano Projektovanje\Računske C#\02. OOProjektovanje.Primer2\OOProjektovanje.Aplikacija\obj\Debug\OOProjektovanje.Aplikacija.exe
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Objektno Orijentisano Projektovanje\Računske C#\02. OOProjektovanje.Primer2\OOProjektovanje.Aplikacija\obj\Debug\OOProjektovanje.Aplikacija.pdb

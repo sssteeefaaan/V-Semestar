@@ -1,0 +1,13 @@
+﻿@page
+@using Server.Pages
+@model CreateVideoKlubModel
+@{
+    ViewData["Title"] = "Napravi novi video klub";
+    Layout = "_Layout";
+}
+<h1>Unesite podatke novog video kluba</h1>
+<form method="POST">
+    @Html.AntiForgeryToken()
+    <p><input type="text" name="VKlub.Naziv" placeholder="Naziv video kluba"></p>
+    <p><input type="submit" value="Kreiraj novi video klub"></p>
+</form>

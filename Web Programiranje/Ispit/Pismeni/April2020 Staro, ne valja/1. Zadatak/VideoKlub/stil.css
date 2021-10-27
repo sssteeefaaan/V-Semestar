@@ -1,0 +1,75 @@
+.Polica{
+	display: flex;
+	flex-direction: row;
+	flex: 1 1 100%;
+}
+
+.DVD{
+	display: flex;
+	flex: 1 1 100%;
+}
+
+.BrojDVD{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction: column;
+	flex-wrap: nowrap;
+}
+
+.Dugme{
+	width:100%;
+}
+
+.Taken{
+	border: 1px solid black;
+}
+
+.Zanr, .Stanje{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.Zanr{
+	flex:1 1 32%;
+	font-size: 3vh;
+}
+
+.Sadrzaj{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex:1 1 62%;
+
+	border: 1px solid black;
+}
+
+.Stanje{
+	flex: 1 1 5%;
+}
+
+.VideoKlub{
+	display:flex;
+	flex-direction: column;
+	border: 1px solid black;
+}
+
+.VideoKlubBody{
+	display: flex;
+	flex-direction: row;
+}
+
+.Unos, .Izlog{
+	display:flex;
+	flex-direction: column;
+}
+
+.Izlog{
+	flex:1 1 100%;
+}
+
+div{
+	margin: 1px;
+	border: 1px dotted black;
+}

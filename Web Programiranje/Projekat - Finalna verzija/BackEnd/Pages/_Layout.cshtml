@@ -1,0 +1,17 @@
+﻿<!DOCTYPE html>
+<html lang="sr">
+
+    <head>
+        <meta charset="utf-8">
+        <title>@ViewData["Title"]</title>
+        @RenderSection("Style", false)
+    </head>
+
+    <body>
+        <div class="box">
+            @RenderBody()
+            @RenderSection("Scripts", false)
+        </div>
+    </body>
+
+</html>

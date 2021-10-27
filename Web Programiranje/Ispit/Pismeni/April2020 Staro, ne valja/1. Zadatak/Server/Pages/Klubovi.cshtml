@@ -1,0 +1,29 @@
+﻿@page
+@using Server.Pages
+@model KluboviModel
+@{
+    ViewData["Title"] = "Klubovi";
+    Layout = "_Layout";
+}
+@section Styles{
+<link rel="stylesheet" href="Styles/Stil.css">
+}
+<h1>Lista video klubova naše baze podataka</h1>
+<table>
+    <tr>
+        <th>Naziv</th>
+        <th>Lista polica</th>
+        <th>Izmeni</th>
+        <th>Obriši</th>
+    </tr>
+    @foreach (var item in Model.Klubovi)
+    {
+        <tr>
+            <td>@item.Naziv</td>
+            <td><a href="./ViewPolice?id=@item.ID">Lista polica</a></td>
+            <td><a href="./UpdateVideoKlub?id=@item.ID">Izmeni video klub</a></td>
+            <td><a href="./DeleteVideoKlub?id=@item.ID">Obriši video klub</a></td>
+        </tr>
+    }
+</table>
+<a class="novi" href="./CreateVideoKlub">Kreiraj novi video klub</a>

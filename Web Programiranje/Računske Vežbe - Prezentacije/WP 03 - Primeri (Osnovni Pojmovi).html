@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    
+</head>
+<body >
+<div id="prvi">
+</div>
+	<script>
+
+//FUNKCIJE
+	
+	//oblastv vazenja promenljivih
+	var x = 10;  
+	let y = 5;
+	const z = 3;
+	y+=10;
+	//z+=3;?????? 
+	function fun()
+	{
+		let m = 2;  		
+		console.log(x + m);  
+		//let x;  sta se desava kada je promenjiva x deklarisana u funkciji?
+	}
+	fun();
+    //console.log(x + m); //y je undefined van f-je
+	
+	
+	let a=5;
+	let b="7";
+	console.log(a+b);
+	
+	console.log(5=="5"); //provera vrednosti
+	console.log(5==="5"); // provera vrednosti i tipa!!!!!
+	
+	
+	//oblast vazenja f-ja
+	function globalna(){
+		console.log("Pozvana globalna funkcija");
+	};
+
+	function nadfun(){
+		lokal(1);  // f-ja moze da se pozove pre deklaracije
+
+		function lokal(param){ // deklaracija 
+			console.log(param)
+		}
+
+		lokal(2);  // poziv f-je nakon deklaracije
+
+		function podfun()  // podfunkcija podfun()
+		{
+			lokal(3);  // unutar podfunkcije takođe možemo pozvati f-ju lokal()
+			globalna();  // f-ja globalna() je svuda važeća
+		}
+	};
+
+	nadfun();
+	//lokal(4);  // ovo neće raditi - lokal() nema važenje van svoje nadfunkcije
+	
+	
+	
+	
+	//Argumenti f-ja
+	function primerArgumenata(prvi, drugi, treci)
+	{
+		console.log("Priv argument je "+ prvi);
+		console.log("Drugi argument je "+ drugi);
+	}
+	primerArgumenata("x","y","z","w");
+	primerArgumenata("x","y");
+	primerArgumenata("x"); // kada se ne prosledi parametar f-ji 
+	//njegova vrednost unutar f-je je undefined
+	
+	function primerArgumenata2(prvi, drugi, treci)
+	{
+		if(arguments.length!=3)
+			throw Error("Neispravna broj argumenta");
+		else
+		var arg="";
+		for(let i=0; i<arguments.length; i++)
+			arg +=" arguments[" + i + "]=" + arguments[i];
+		console.log(arg);
+	}
+	
+	
+	//primerArgumenata2(); //ovde ce se logovati greska jer nismo prosledili argumente
+	primerArgumenata2("prvi", "drugi","treci");
+	
+	
+	
+	//Prosledjivanje parametrara
+	//Primitivne promenljive - VREDNOST, objekti - REFERENCE
+	var x = 10;   
+	var y = x;    
+	y = y+1;    
+	console.log("x ="+x+"  y= "+y);
+
+	function zbir(a,b)
+	{
+		a++;
+		b++;
+		return a+b;
+	}
+
+	var x = 5;
+	var y = 10;
+	var rez = zbir(x,y);
+	console.log(rez, x, y);
+	
+	
+	
+	
+	var pasus = document.getElementById("prvi");   // pasus je referenca na objekat
+	var ref = pasus;                               // ref je takođe referenca na objekat
+
+	ref.style.color = "rgb(153,0,0)";       
+	console.log(pasus.style.color);
+	ref = null;    // poništavamo referencu ref - OBJEKAT NIJE OBRISAN
+	console.log(ref);
+	console.log(pasus);
+	
+	
+	
+	// dva nacina pisanja f-ja - deklaracija f-je i funkcijski izraz
+	
+	//console.log(square(3));  ovo je ok
+	//console.log(square2(3)); !!funkcijski izraz ne moze da se pozove pre deklaracije
+	
+	//Function Declaration
+	function square(a) { 
+		return a*a; 
+	} 
+
+	//Function Expression
+	var square2 = function(a) { 
+		return a*a; 
+	} 
+	
+	console.log(square2(3));
+	
+	
+	//funkcijski izrazi mogu biti i imenovane f-je - korisno za rekurzije
+	function f(a)
+	{
+		var fun = function fakt(a)
+		{
+			if (a == 0) return 1;
+			return a * fakt(a-1); 
+		}
+
+		console.log("Faktorijel broja 5 je "+fun(a));  // poziv funkcije preko reference fun() je U REDU
+		//fakt(5);  // poziv funkcije preko preko njenog imena je GREŠKA
+	};
+	
+
+console.log(f(5));
+
+
+//Nizovi
+let niz=["tenis","fudbal", "kosarka"];
+
+niz.push("monopol");
+
+console.log(niz.shift());
+
+let log="";
+// for(let i =0; i<niz.length;i++)
+// {
+// 	log+="niz["+ i+"]="+niz[i]+"  ";
+// }
+
+//forEcach
+niz.forEach((element,index) => {
+	log +="niz["+index+"]="+element+"  ";
+});
+
+console.log(log);
+
+	</script>
+    
+</body>
+
+</html>

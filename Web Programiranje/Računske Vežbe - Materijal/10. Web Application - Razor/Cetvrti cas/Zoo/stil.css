@@ -1,0 +1,28 @@
+.kontejner{
+    display: flex;
+    border:  1px solid black;
+
+}
+.kontForma{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 200px;
+
+}
+.kontLokacije{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+
+}
+.red{
+    display: flex;
+    flex-grow: 1;
+}
+
+.lok{
+    border: 1px solid black;
+    flex: 1 1 10px;
+    margin: 5px;
+    text-align: center;
+}

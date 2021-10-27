@@ -1,0 +1,17 @@
+﻿@page
+@using Primer1.Pages
+@model AzurirajVrtModel
+@{
+    ViewData["Title"] = "Izmeni Vrt";
+    Layout = "_Layout";
+}
+
+<form method="POST">
+    @Html.AntiForgeryToken()
+    <h1>Izmenite vrt: @Model.Vrt.Naziv</h1>
+    <p><input type="text" name="Vrt.Naziv" value="@Model.Vrt.Naziv"></p>
+    <p><input type="number" name="Vrt.Kapacitet" value="@Model.Vrt.Kapacitet"></p>
+    <p><input type="number" name="Vrt.N" value="@Model.Vrt.N"></p>
+    <p><input type="number" name="Vrt.M" value="@Model.Vrt.M"></p>
+    <p><input type="submit" value="Izmeni vrt"></p>
+</form>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Drugi čas</title>
+        <link rel="stylesheet" href="stil.css">
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <article>
+            <div class="col">
+                <table>
+                    <thead>
+                        <caption><h1>Tabela Za Drugi Čas</h1></caption>
+                        <tr>
+                            <th>Indeks</th>
+                            <th class="ImePrez">Ime</th>
+                            <th class="ImePrez">Prezime</th>
+                            <th>Ocena</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>16995</td>
+                            <td>Stefan</td>
+                            <td>Aleksić</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td>395669</td>
+                            <td>Luka</td>
+                            <td>Obradović</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">Prosečna Ocena:</td>
+                            <td>10</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col">
+                <div>
+                <label>Ime</label>
+                <input class="ime" id="ime" type="text" value="Unesite Ime"/>
+                </div>
+                <div>
+                    <label>Prezime</label>
+                    <input class="prezime" type="text" value="Unesite Prezime"/>
+                </div>
+                <div>
+                    <label>Broj Indeksa</label>
+                    <input class="indeks" type="number"/>
+                </div>
+                <div>
+                    <label>Rok</label>
+                    <select>
+                        <option>Januarski</option>
+                        <option>Aprilski</option>
+                        <option>Junski</option>
+                        <option>Septembarski</option>
+                        <option>Oktobarski</option>
+                        <option>Decembarski</option>
+                    </select>
+                </div>
+                <div>
+                    <label>Smer</label>
+                    <div>
+                        <label>RII</label> <input type="checkbox" class="rii">
+                        <label>US</label> <input type="checkbox" class="us">
+                        <label>TK</label> <input type="checkbox" class="tk">
+                    </div>
+                </div>
+                <div>
+                    <label>Ocena</label>
+                    <input type="radio" name="ocena" value="10"/><label>10</label>
+                    <input type="radio" name="ocena" value="9"/><label>9</label>
+                    <input type="radio" name="ocena" value="8"/><label>8</label>
+                    <input type="radio" name="ocena" value="7"/><label>7</label>
+                    <input type="radio" name="ocena" value="6"/><label>6</label>
+                    <input type="radio" name="ocena" value="5"/><label>5</label>
+                </div>
+                <button>Sačuvaj</button>
+            </div>
+        </article>
+    </body>
+</html>

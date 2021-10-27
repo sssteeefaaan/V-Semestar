@@ -1,0 +1,73 @@
+.kontejner{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid brown;
+    margin: 5px;
+}
+
+.Naslov{
+    display:flex;
+    justify-content:center;
+}
+
+.Sadrzaj{
+    display:flex;
+    flex-direction: row;
+}
+
+.kontForma{
+    display:flex;
+    flex-direction:column;
+    flex-basis:200px;
+    margin:2px;
+}
+
+.kontLokacije{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    margin:2px;
+}
+
+.Section{
+    font-size: 20px;
+    margin: 2px;
+    display: flex;
+    justify-content:center;
+}
+
+.Staniste{
+    flex-direction: column;
+}
+
+.Selection{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+.SelectionX, .SelectionY, .DodajDugme{
+    display: flex;
+    justify-content: center;
+}
+
+.dugme{
+    font-size: 20px;
+}
+
+.red{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+}
+
+.lokacija{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex: 1 1 35px;
+
+    border: 2px solid black;
+    margin: 5px;
+    font-size: 20px;
+}

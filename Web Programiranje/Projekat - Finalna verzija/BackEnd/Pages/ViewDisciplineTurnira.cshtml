@@ -1,0 +1,39 @@
+﻿@page
+@using Server.Pages
+@model ViewDisciplineTurniraModel
+@{
+    Layout="_Layout";
+    ViewData["Title"]="Lista disciplina turnira";
+}
+@section Style{
+    <link rel="stylesheet" href="Styles/Stil.css">
+}
+@section Scripts{
+    <script src="Scripts/ScriptViewDiscipline.js"></script>
+}
+<h1>Lista svih disciplina turnira '@Model.Turnir.Naziv'</h1>
+<table>
+    <tr>
+        <th>Naziv</th>
+        <th>Lokacija</th>
+        <th>Trenutni broj takmičara</th>
+        <th>Maksimalni broj takmičara</th>
+        <th>Pobednik</th>
+        <th>Lista učesnika</th>
+        <th>Izmeni</th>
+        <th>Obriši</th>
+    </tr>
+    @for (var i=0; i < Model.Discipline.Count; i++)
+    {
+        <tr>
+            <td>@Model.Discipline[i].Naziv</td>
+            <td>@Model.Discipline[i].Lokacija</td>
+            <td>@Model.TrenutniBrojUcesnika[i]</td>
+            <td>@Model.Discipline[i].MaxUcesnici</td>
+            <td>@Model.VratiPobednika(i)</td>
+            <td><a href="./ViewUcesnikeDiscipline?turnirID=@Model.Turnir.ID&disciplinaID=@Model.Discipline[i].ID">Učesnici</a></td>
+            <td><a href="./UpdateDisciplina?turnirID=@Model.Turnir.ID&disciplinaID=@Model.Discipline[i].ID">Izmenite disciplinu</a></td>
+            <td><a href="./DeleteDisciplina?turnirID=@Model.Turnir.ID&disciplinaID=@Model.Discipline[i].ID">Obrišite disciplinu</a></td>
+        </tr>
+    }
+</table>

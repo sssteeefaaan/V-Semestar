@@ -1,0 +1,55 @@
+Kreiranje Razor stranice:
+	dotnet new page -o Pages -np -n Index
+	-o Pages	-> u kom folderu će se smestiti (Pages)
+	-np		-> ukoliko model nije potreban
+	-n Index	-> stranica će imati Index.cshtml
+
+Svaka stranica počinje sa
+@page	-> direktiva govori da fajl predstavlja razor stranicu
+@{
+	C# kod
+}
+
+
+Specijalne stranice
+	- _Layout.cshtml	-> Sadrži HTML kod koji se prikazuje na svim stranicama, bez delova koji su različiti
+		-> Unutar code bloka (@{}) treba upisati Layout = "_Layout"; (ime _Layout je dogovor, može bilo šta)
+	- @ViewData["Title"]	-> Koristi se za dodelu vrednosti ( uovom slučaju inner html title-a)
+	- @RenderBody()		-> Generiše promenljivi deo HTML-a
+		-> Prepisuje sadržaj stranice koja je trenutno pokrenuta u browser-u umesto dela koda u _Layout.cshtml gde se nalazi poziv ove funkcije
+	- @RenderSection("imeScripte", required: false)	-> Dodatni deo koji nije neophodan, ali može da postoji u stranici
+		-> Na stranici je ovaj blok definisan kao @section imeScripte {}
+
+Specijalne direktive:
+	- @using [namespace]	-> Za uključivanje namespace-a u stranici
+	- @model [naziv]	-> Za uključivanje modela
+	- @inject
+
+Model-View-Controller:
+
+	-Model:
+		-> Koristi se za pamćenje stanja aoplikacije i biznis logike, kao i operacija koje ona treba da obavi
+		-> Potpuno odvojeno od klijenta
+
+------------------JASNA RAZLIKA IZMEĐU PRIKAZA I LOGIKE----------------------------
+
+	-View:
+		-> Korisnički interfejs (.NET kod i HTML mark-up)
+
+	-Controller:
+		-> Komunikacija između View i Modela
+		-> Ispis u browseru
+
+	-> Važne Uloge:
+		-Rutiranje			-> aplikacije nema interfejs, samo šalju zahteve [Route()], [HttpGet], [HttpPost], itd
+		-Validacija modela		-> Uvek za post zahteve, Putem atributa [Required], [DataType...]...
+		-Filteri			-> Filteri su jako korisni, zato što putem atributa mogu da ograniče pristup određenim stranicama, bez dodatnih provera
+						-> [Authorize]
+
+---------------------------
+
+Problem oko sertifikata
+	dotnet dev-certs https --trust
+		
+
+

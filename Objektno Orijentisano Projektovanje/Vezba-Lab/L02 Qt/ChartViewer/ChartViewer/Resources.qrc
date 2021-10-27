@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/Ikone">
+        <file>Ikone/new.png</file>
+        <file>Ikone/open.png</file>
+        <file>Ikone/save.png</file>
+    </qresource>
+</RCC>

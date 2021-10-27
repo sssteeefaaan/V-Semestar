@@ -1,0 +1,33 @@
+﻿@page
+@using Primer1.Pages
+@model VrtoviModel
+@{
+    ViewData["Title"] = "Lista vrtova";
+    Layout = "_Layout";
+}
+
+@section Stilovi{
+    <link rel="stylesheet" href="Styles/Stilovi.css">
+}
+<a id="napraviVrt" href="./NapraviVrt">Kreiraj vrt</a>
+<table>
+    <tr>
+        <th>Naziv vrta</th>
+        <th>Kapacitet</th>
+        <th>N</th>
+        <th>M</th>
+        <th>Edit</th>
+        <th>Delete</th>
+    </tr>
+    @foreach (var item in Model.Vrtovi)
+    {
+        <tr>
+            <td>@item.Naziv</td>
+            <td>@item.Kapacitet</td>
+            <td>@item.N</td>
+            <td>@item.M</td>
+            <td><a href="./AzurirajVrt?id=@item.ID">Izmeni</a></td>
+            <td><a href="./ObrisiVrt?id=@item.ID">Obriši</a></td>
+        </tr>
+    }
+</table>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+    </head>
+    <body>
+        <script>
+
+            // CLOSURE FUNKCIJE
+            // *Unutrašnja funkcija, koja je referencirana van svoje nadfunkcije
+            // i dalje ima pristup lokalnim promenljivama nadfunkcije
+            
+            // Scope chain-a funkcije:
+            //      1. U okviru funkcije (parametri i promenljive definisane u funkciji)
+            //      2. Globalne promenljive
+            //      3. Promenljive spoljne funckije VAŽNO!
+
+
+            // Regularna situacija
+            var a = [2, 3, 4, 8, 5];
+            function sumiraj(niz){
+                var suma=0;
+                niz.forEach(function(element){
+                    suma+=element;
+                });
+                return suma;
+            }
+
+            console.log("Suma je " + sumiraj(a));
+
+
+            // Closure
+            function nadFunkcija(){
+                
+                var broj = 0;
+
+                function podFunkcija(){
+
+                    broj++;
+                    console.log("Podfunkcija broj je: " + broj);
+                }
+
+                window.setTimeout(podFunkcija,4000);        // Broj ne treba da postoji kad se završi nadfunkcija, međutim JS čuva jer je poslata da se izvrši podFunkcija posle 4s
+                podFunkcija();
+                console.log("Završena nadfunkcija");
+            }
+
+            nadFunkcija();
+
+            // Drugi primer
+            function dodaj(){
+                let blok = document.createElement("div");
+                blok.innerHTML="Klikni na dugme";
+                document.body.appendChild(blok);
+
+                let dugme = document.createElement("input");
+                dugme.type="button";
+                dugme.value="Dugme";
+                dugme.onclick=klik;
+                document.body.appendChild(dugme);
+                
+                function klik(){
+                    blok.innerHTML="Kliknuli smo na dugme";
+                }
+            }
+
+            dodaj();
+
+        </script>
+    </body>
+</html>

@@ -1,0 +1,9 @@
+C:\Documents and Settings\Petar\My Documents\Visual Studio 2005\Projects\WindowsApplication2\WindowsApplication2\bin\Release\WindowsApplication2.exe
+C:\Documents and Settings\Petar\My Documents\Visual Studio 2005\Projects\WindowsApplication2\WindowsApplication2\bin\Release\WindowsApplication2.pdb
+C:\Documents and Settings\Petar\My Documents\Visual Studio 2005\Projects\WindowsApplication2\WindowsApplication2\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Petar\My Documents\Visual Studio 2005\Projects\WindowsApplication2\WindowsApplication2\obj\Release\WindowsApplication1.Form1.resources
+C:\Documents and Settings\Petar\My Documents\Visual Studio 2005\Projects\WindowsApplication2\WindowsApplication2\obj\Release\WindowsApplication1.Form2.resources
+C:\Documents and Settings\Petar\My Documents\Visual Studio 2005\Projects\WindowsApplication2\WindowsApplication2\obj\Release\WindowsApplication1.Properties.Resources.resources
+C:\Documents and Settings\Petar\My Documents\Visual Studio 2005\Projects\WindowsApplication2\WindowsApplication2\obj\Release\WindowsApplication2.csproj.GenerateResource.Cache
+C:\Documents and Settings\Petar\My Documents\Visual Studio 2005\Projects\WindowsApplication2\WindowsApplication2\obj\Release\WindowsApplication2.exe
+C:\Documents and Settings\Petar\My Documents\Visual Studio 2005\Projects\WindowsApplication2\WindowsApplication2\obj\Release\WindowsApplication2.pdb

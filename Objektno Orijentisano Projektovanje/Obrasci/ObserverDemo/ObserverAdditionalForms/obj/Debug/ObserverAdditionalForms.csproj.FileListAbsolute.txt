@@ -1,0 +1,8 @@
+c:\users\petar\documents\visual studio 2015\Projects\ObserverDemo\ObserverAdditionalForms\bin\Debug\ObserverAdditionalForms.dll
+c:\users\petar\documents\visual studio 2015\Projects\ObserverDemo\ObserverAdditionalForms\bin\Debug\ObserverAdditionalForms.pdb
+c:\users\petar\documents\visual studio 2015\Projects\ObserverDemo\ObserverAdditionalForms\bin\Debug\ObserverDemoApi.dll
+c:\users\petar\documents\visual studio 2015\Projects\ObserverDemo\ObserverAdditionalForms\bin\Debug\ObserverDemoApi.pdb
+c:\users\petar\documents\visual studio 2015\Projects\ObserverDemo\ObserverAdditionalForms\obj\Debug\ObserverAdditionalForms.KlijentIzDrugeBiblioteke.resources
+c:\users\petar\documents\visual studio 2015\Projects\ObserverDemo\ObserverAdditionalForms\obj\Debug\ObserverAdditionalForms.csproj.GenerateResource.Cache
+c:\users\petar\documents\visual studio 2015\Projects\ObserverDemo\ObserverAdditionalForms\obj\Debug\ObserverAdditionalForms.dll
+c:\users\petar\documents\visual studio 2015\Projects\ObserverDemo\ObserverAdditionalForms\obj\Debug\ObserverAdditionalForms.pdb

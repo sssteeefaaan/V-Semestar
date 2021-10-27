@@ -1,0 +1,37 @@
+C:\Users\Darko\Desktop\Web Programiranje\2020\WebAPI 1\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Darko\Desktop\Web Programiranje\2020\WebAPI 1\bin\Debug\net5.0\appsettings.json
+C:\Users\Darko\Desktop\Web Programiranje\2020\WebAPI 1\bin\Debug\net5.0\WebAPI 1.exe
+C:\Users\Darko\Desktop\Web Programiranje\2020\WebAPI 1\bin\Debug\net5.0\WebAPI 1.deps.json
+C:\Users\Darko\Desktop\Web Programiranje\2020\WebAPI 1\bin\Debug\net5.0\WebAPI 1.runtimeconfig.json
+C:\Users\Darko\Desktop\Web Programiranje\2020\WebAPI 1\bin\Debug\net5.0\WebAPI 1.runtimeconfig.dev.json
+C:\Users\Darko\Desktop\Web Programiranje\2020\WebAPI 1\bin\Debug\net5.0\WebAPI 1.dll
+C:\Users\Darko\Desktop\Web Programiranje\2020\WebAPI 1\bin\Debug\net5.0\ref\WebAPI 1.dll
+C:\Users\Darko\Desktop\Web Programiranje\2020\WebAPI 1\bin\Debug\net5.0\WebAPI 1.pdb
+C:\Users\Darko\Desktop\Web Programiranje\2020\WebAPI 1\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Darko\Desktop\Web Programiranje\2020\WebAPI 1\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+C:\Users\Darko\Desktop\Web Programiranje\2020\WebAPI 1\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Darko\Desktop\Web Programiranje\2020\WebAPI 1\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Darko\Desktop\Web Programiranje\2020\WebAPI 1\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Darko\Desktop\Web Programiranje\2020\WebAPI 1\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Darko\Desktop\Web Programiranje\2020\WebAPI 1\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Darko\Desktop\Web Programiranje\2020\WebAPI 1\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\Darko\Desktop\Web Programiranje\2020\WebAPI 1\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Darko\Desktop\Web Programiranje\2020\WebAPI 1\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Darko\Desktop\Web Programiranje\2020\WebAPI 1\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Darko\Desktop\Web Programiranje\2020\WebAPI 1\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Darko\Desktop\Web Programiranje\2020\WebAPI 1\obj\Debug\net5.0\WebAPI 1.csprojAssemblyReference.cache
+C:\Users\Darko\Desktop\Web Programiranje\2020\WebAPI 1\obj\Debug\net5.0\WebAPI 1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Darko\Desktop\Web Programiranje\2020\WebAPI 1\obj\Debug\net5.0\WebAPI 1.AssemblyInfoInputs.cache
+C:\Users\Darko\Desktop\Web Programiranje\2020\WebAPI 1\obj\Debug\net5.0\WebAPI 1.AssemblyInfo.cs
+C:\Users\Darko\Desktop\Web Programiranje\2020\WebAPI 1\obj\Debug\net5.0\WebAPI 1.csproj.CoreCompileInputs.cache
+C:\Users\Darko\Desktop\Web Programiranje\2020\WebAPI 1\obj\Debug\net5.0\WebAPI 1.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Darko\Desktop\Web Programiranje\2020\WebAPI 1\obj\Debug\net5.0\WebAPI 1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Darko\Desktop\Web Programiranje\2020\WebAPI 1\obj\Debug\net5.0\staticwebassets\WebAPI 1.StaticWebAssets.Manifest.cache
+C:\Users\Darko\Desktop\Web Programiranje\2020\WebAPI 1\obj\Debug\net5.0\staticwebassets\WebAPI 1.StaticWebAssets.xml
+C:\Users\Darko\Desktop\Web Programiranje\2020\WebAPI 1\obj\Debug\net5.0\scopedcss\bundle\WebAPI 1.styles.css
+C:\Users\Darko\Desktop\Web Programiranje\2020\WebAPI 1\obj\Debug\net5.0\WebAPI 1.RazorTargetAssemblyInfo.cache
+C:\Users\Darko\Desktop\Web Programiranje\2020\WebAPI 1\obj\Debug\net5.0\WebAPI 1.csproj.CopyComplete
+C:\Users\Darko\Desktop\Web Programiranje\2020\WebAPI 1\obj\Debug\net5.0\WebAPI 1.dll
+C:\Users\Darko\Desktop\Web Programiranje\2020\WebAPI 1\obj\Debug\net5.0\ref\WebAPI 1.dll
+C:\Users\Darko\Desktop\Web Programiranje\2020\WebAPI 1\obj\Debug\net5.0\WebAPI 1.pdb
+C:\Users\Darko\Desktop\Web Programiranje\2020\WebAPI 1\obj\Debug\net5.0\WebAPI 1.genruntimeconfig.cache

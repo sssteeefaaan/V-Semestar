@@ -1,0 +1,17 @@
+c:\users\petar\documents\visual studio 2013\Projects\ObserverPrimer\ObserverPrimer\bin\Debug\ObserverPrimer.exe.config
+c:\users\petar\documents\visual studio 2013\Projects\ObserverPrimer\ObserverPrimer\bin\Debug\ObserverPrimer.exe
+c:\users\petar\documents\visual studio 2013\Projects\ObserverPrimer\ObserverPrimer\bin\Debug\ObserverPrimer.pdb
+c:\users\petar\documents\visual studio 2013\Projects\ObserverPrimer\ObserverPrimer\obj\Debug\ObserverPrimer.csprojResolveAssemblyReference.cache
+c:\users\petar\documents\visual studio 2013\Projects\ObserverPrimer\ObserverPrimer\obj\Debug\ObserverPrimer.FormGlavna.resources
+c:\users\petar\documents\visual studio 2013\Projects\ObserverPrimer\ObserverPrimer\obj\Debug\ObserverPrimer.Properties.Resources.resources
+c:\users\petar\documents\visual studio 2013\Projects\ObserverPrimer\ObserverPrimer\obj\Debug\ObserverPrimer.csproj.GenerateResource.Cache
+c:\users\petar\documents\visual studio 2013\Projects\ObserverPrimer\ObserverPrimer\obj\Debug\ObserverPrimer.exe
+c:\users\petar\documents\visual studio 2013\Projects\ObserverPrimer\ObserverPrimer\obj\Debug\ObserverPrimer.pdb
+c:\users\petar\documents\visual studio 2013\Projects\ObserverPrimer\ObserverPrimer\obj\Debug\ObserverPrimer.FormChild.resources
+c:\users\petar\documents\visual studio 2013\Projects\ObserverPrimer\ObserverPrimer\obj\Debug\ObserverPrimer.FormGeneratorPromena.resources
+c:\users\petar\documents\visual studio 2013\Projects\ObserverPrimer\ObserverPrimer\obj\Debug\ObserverPrimer.FormLog.resources
+c:\users\petar\documents\visual studio 2013\Projects\ObserverPrimer\ObserverPrimer\obj\Debug\ObserverPrimer.FormJosjedna.resources
+c:\users\petar\documents\visual studio 2013\Projects\ObserverPrimer\ObserverPrimer\obj\Debug\ObserverPrimer.FormPoslednja.resources
+D:\Nastava\Objektno-orijentisano projektovanje\4. Okt 31\ObserverPrimer\ObserverPrimer\bin\Debug\ObserverPrimer.exe.config
+D:\Nastava\Objektno-orijentisano projektovanje\4. Okt 31\ObserverPrimer\ObserverPrimer\obj\Debug\ObserverPrimer.exe
+D:\Nastava\Objektno-orijentisano projektovanje\4. Okt 31\ObserverPrimer\ObserverPrimer\obj\Debug\ObserverPrimer.pdb

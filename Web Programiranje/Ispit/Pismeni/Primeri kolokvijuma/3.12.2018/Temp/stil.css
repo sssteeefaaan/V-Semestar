@@ -1,0 +1,20 @@
+.stub{
+    width: 30px;
+    background-color: red;
+    
+}
+
+.grafik{
+    display: flex;
+    flex-direction: column-reverse;
+    border: black dotted 1px;
+    align-items: flex-end;
+    flex-grow: 1;
+}
+
+.stubici{
+    display: flex;
+    height: 300px;
+    
+}
+

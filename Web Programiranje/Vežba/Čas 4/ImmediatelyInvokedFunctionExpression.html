@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+    </head>
+    <body>
+        <script>
+
+            // IIFE (Immediately Invoked Function Expression)
+            // *Funkcija se pri njenoj definiciji i poziva
+
+            // Klasična funkcija i njen poziv nakon deklaracije
+
+            function prikazi(){
+                alert("Test Klasična");
+            };
+            prikazi();
+
+            //IIFE
+
+            (function prikazi(){
+                alert("Test IIFE");
+            })();
+
+            (function(x,y){
+                var blok = document.createElement("div");
+                blok.innerHTML = "Ovo je blok";
+                blok.style.backgroundColor="#FF0000";
+                blok.onclick = function(){
+                    blok.style.backgroundColor="#0000FF";
+                    blok.style.width = x + "px";
+                    blok.style.height = y + "px";
+                };
+                document.body.appendChild(blok);
+            })(300, 100);
+
+
+            // Problem rešen sa IIFE
+
+            for(var i = 0; i < 10; i++){
+
+                let btn= document.createElement("button");
+                btn.innerHTML=i;
+                document.body.appendChild(btn);
+                btn.onclick=function(){
+                    this.innerHTML=++i;
+                }
+            }
+
+            document.body.appendChild(document.createElement("br"));
+
+            for(var i = 0; i < 10; i++){
+
+                (function(a){
+                    let btn= document.createElement("button");
+                    btn.innerHTML=i;
+                    document.body.appendChild(btn);
+                    btn.onclick=function(){
+                        this.innerHTML=++a;
+                    }
+                })(i);
+            }
+
+        </script>
+    </body>
+</html>

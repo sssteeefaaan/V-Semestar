@@ -1,0 +1,15 @@
+﻿@page
+@using TreciCas.Pages
+@model CreateVrtModel
+@{
+    ViewData["Title"] = "Kreiraj vrt";
+    Layout = "_Layout";
+}
+<form method="post">
+    @Html.AntiForgeryToken()
+    <p>Naziv: <input type="text" name="Vrt.Naziv" placeholder="Naziv"></p>
+    <p>Kapacitet: <input type="number" name="Vrt.Kapacitet" placeholder="Kapacitet"></p>
+    <p>M: <input type="number" name="Vrt.M" placeholder="M"></p>
+    <p>N: <input type="number" name="Vrt.N" placeholder="N"></p>
+    <input type="submit" value="Kreiraj">
+</form>

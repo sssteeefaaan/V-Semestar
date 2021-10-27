@@ -1,0 +1,20 @@
+.roditelj
+{
+    display:flex;
+    flex-direction: row;
+}
+div{
+    border:1px solid black;
+    margin:1px;
+    /* 
+    flex: 1 0 50px;
+    flex: growValue shrinkValue basisValue;
+    */
+    flex-basis:50px;
+    flex-grow:1;
+    flex-shrink:0;
+}
+.d2
+{
+    flex-grow:2;
+}

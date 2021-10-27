@@ -1,0 +1,16 @@
+﻿@page
+@using Server.Pages
+@model UpdatePolicaModel
+@{
+    Layout = "_Layout";
+    ViewData["Tittle"] = "Izmeni policu";
+}
+<h1>Izmena police @Model.Polica.Oznaka</h1>
+<form method="POST">
+    @Html.AntiForgeryToken()
+    <p>Žanr: <input type="text" name="Polica.Oznaka" value="@Model.Polica.Oznaka"></p>
+    <p>Boja: <input type="text" name="Polica.Boja" value="@Model.Polica.Boja"></p>
+    <p>Current: <input type="number" name="Polica.Curr" value="@Model.Polica.Curr"></p>
+    <p>Max: <input type="number" name="Polica.Max" value="@Model.Polica.Max"></p>
+    <p><input type="submit" value="Izmeni"></p>
+</form>

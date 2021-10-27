@@ -1,0 +1,21 @@
+﻿@page
+@using Server.Pages
+@model UpdateUcesnikModel
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Ažurirajte učesnika";
+}
+@section Style{
+    <link rel="stylesheet" href="Styles/FormStil.css">
+}
+<div class="Container">
+    <h1>Unesite podatke o učesniku</h1>
+    <form method="POST" query="Hello">
+        @Html.AntiForgeryToken()
+        <p><input type="hidden" name="GoBack" value="@Model.GoBack"></p>
+        <p><input type="text" name="Ucesnik.Ime" value="@Model.Ucesnik.Ime"></p>
+        <p><input type="text" name="Ucesnik.Prezime" value="@Model.Ucesnik.Prezime"></p>
+        <p><input type="number" name="Ucesnik.Brzina" value="@Model.Ucesnik.Brzina"></p>
+        <p><input type="submit" value="Izmenite učesnika"></p>
+    </form>
+</div>

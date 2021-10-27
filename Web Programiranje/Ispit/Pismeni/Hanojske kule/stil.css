@@ -1,0 +1,50 @@
+.Kula{
+    display:flex;
+    flex-direction: column-reverse;
+    background-color: lightgray;
+    border: 2px solid black;
+}
+
+.Red{
+    display:flex;
+    justify-content: center;
+}
+
+.PoljeZaIgru {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex:1 1 100%;
+    justify-content: space-around;
+}
+
+.Tabla{
+    display:flex;
+    flex:1 1 100%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.Undo, .Redo{
+    font-size: 20px;
+    font-weight: bold;
+    margin:10px;
+}
+
+.Header{
+    display:flex;
+    flex:1 1 100%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin:5px;
+}
+
+.Deo{
+    background-color:purple;
+    border: 1px solid pink;
+    font-size: 20px;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}

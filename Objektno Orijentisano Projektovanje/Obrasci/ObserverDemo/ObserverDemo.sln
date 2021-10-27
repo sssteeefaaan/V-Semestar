@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverDemo", "ObserverDemo\ObserverDemo.csproj", "{9EF373EB-39D0-45AF-B99B-FAD4ACF3E960}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverDemoApi", "ObserverDemoApi\ObserverDemoApi.csproj", "{DA8D16C6-8829-4BA3-AE4E-27D01F850A57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverAdditionalForms", "ObserverAdditionalForms\ObserverAdditionalForms.csproj", "{00B9B308-3E77-45EB-93BA-995F0252C5A9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9EF373EB-39D0-45AF-B99B-FAD4ACF3E960}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EF373EB-39D0-45AF-B99B-FAD4ACF3E960}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EF373EB-39D0-45AF-B99B-FAD4ACF3E960}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EF373EB-39D0-45AF-B99B-FAD4ACF3E960}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA8D16C6-8829-4BA3-AE4E-27D01F850A57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA8D16C6-8829-4BA3-AE4E-27D01F850A57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA8D16C6-8829-4BA3-AE4E-27D01F850A57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA8D16C6-8829-4BA3-AE4E-27D01F850A57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00B9B308-3E77-45EB-93BA-995F0252C5A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00B9B308-3E77-45EB-93BA-995F0252C5A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00B9B308-3E77-45EB-93BA-995F0252C5A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00B9B308-3E77-45EB-93BA-995F0252C5A9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

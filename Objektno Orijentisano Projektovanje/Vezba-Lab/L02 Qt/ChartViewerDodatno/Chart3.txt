@@ -1,0 +1,7 @@
+label0,value0,color0	Stefan,95,#55aa7f
+label1,value1,color1	Luka,90,#aa007f
+label2,value2,color2	Igor,45,#e133ff
+label3,value3,color3	Pera,77,#ff5820
+label4,value4,color4	Sajmon,32,#684eff
+label5,value5,color5	Majkl,100,#ffff00
+KRAJ

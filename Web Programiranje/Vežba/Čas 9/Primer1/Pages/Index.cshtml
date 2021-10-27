@@ -1,0 +1,20 @@
+﻿@page
+@using Primer1.Pages
+@model IndexModel
+@functions{
+    int age;
+    int Age { get { return age; } set { age = value; } }
+
+    string GetName() { Age = 25; return "Stefan Aleksić"; }
+}
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Indeks stranica";
+}
+<a href="./Vrtovi">Vrtovi</a>
+<h1>Ovo je stranica</h1>
+<h2>Dobrodošli, @GetName() @Age godina</h2>
+@for (int i = 1; i <= 100; i++)
+{
+    <p>Ovo je @i. paragraf</p>
+}

@@ -1,0 +1,50 @@
+
+
+#link-ms {
+  font-size: 20px;
+}
+
+nav a {
+  color: #666666;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #2222FF;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.manje-bitan {
+  font-size: smaller;
+}
+
+.vest-dana {
+  left:50px;
+  top: 100px;
+}
+
+.utisak-nedelje{
+  left:450px;
+  top: 100px;
+}
+
+
+.dialog {
+  position: absolute;
+  width:300px;
+  height:300px;
+  box-shadow: 5px 10px #888888;
+  border:2px #666666 solid;
+  padding:15px;
+  background-color: beige;
+}
+
+.dialog button {
+  position: absolute;
+  right:0px;
+  top:0px;
+}

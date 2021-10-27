@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/Images">
+        <file>IMAGES/santa1.png</file>
+        <file>IMAGES/santa2.png</file>
+        <file>IMAGES/santa-left1.png</file>
+        <file>IMAGES/santa-left2.png</file>
+        <file>IMAGES/santa-right1.png</file>
+        <file>IMAGES/santa-right2.png</file>
+        <file>IMAGES/snowman.png</file>
+        <file>IMAGES/tree.png</file>
+    </qresource>
+</RCC>

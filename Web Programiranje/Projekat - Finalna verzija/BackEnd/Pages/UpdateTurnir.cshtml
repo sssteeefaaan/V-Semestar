@@ -1,0 +1,19 @@
+﻿@page
+@using Server.Pages
+@model UpdateTurnirModel
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Ažuriraj turnir";
+}
+@section Style{
+    <link rel="stylesheet" href="Styles/FormStil.css">
+}
+<div class="Container">
+    <h1>Unesite naziv turnira</h1>
+    <form method="POST">
+        @Html.AntiForgeryToken()
+        <p><input type="text" name="Turnir.Naziv" value="@Model.Turnir.Naziv"></p>
+        <p><input type="number" name="Turnir.MaxDisciplina" value="@Model.Turnir.MaxDisciplina"></p>
+        <p><input type="submit" value="Izmeni turnir"></p>
+    </form>
+</div>

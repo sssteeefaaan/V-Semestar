@@ -1,0 +1,60 @@
+table, tr, th, td{
+    border-collapse: collapse;
+    text-align: center;
+    color:white;
+    padding: 0.5%;
+}
+table tbody tr {
+    background-color: #344955;
+}
+table tbody tr:hover {
+    background-color: #233844;
+}
+table tbody tr:nth-child(even)
+{
+    background-color: #232F34;
+}
+table tbody tr:nth-child(even):hover{
+    background-color: #121E23;
+}
+table tr:last-child td:first-child {
+    border-bottom-left-radius: 10px;
+}
+table th:first-child{
+    border-top-left-radius: 10px;
+}
+table th:last-child{
+    border-top-right-radius: 10px;
+}
+table tr:last-child td:last-child {
+    border-bottom-right-radius: 10px;
+}
+table{
+    width:100%;
+}
+th{
+    background-color:#F9AA33;
+    color: black;
+}
+a{
+    color: #F9AA33;
+    text-decoration: none;
+}
+a:hover{
+    color:#C52222;
+}
+button[class^="Create"], button[class^="Back"]
+{
+    font-weight: bold;
+    margin: 0.5% 0.5% 0.5% 0;
+    padding: 0.5%;
+    background-color: #F9AA33;
+    color:black;
+    border-radius: 10px;
+    border:1px solid aliceblue;
+
+}
+button[class^="Create"]:hover, button[class^="Back"]:hover
+{
+    background-color:#C52222;
+}

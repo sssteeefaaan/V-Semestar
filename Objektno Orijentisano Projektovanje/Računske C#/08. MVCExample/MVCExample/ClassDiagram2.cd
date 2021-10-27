@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MVCExample.Controller.Controller">
+    <Position X="6.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAIACAAAAAAgAAQAAAAAIAAA=</HashCode>
+      <FileName>Controller\Controller.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="model" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MVCExample.Controller.TestController">
+    <Position X="0.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAQABAAACAAAAAAAAEAIACAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Controller\TestController.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MVCExample.Model.Model">
+    <Position X="7.25" Y="3.25" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="MVCExample.Model.Model.States" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Model\Model.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAACAAAAAAAAAAIEAgAABEAQgAA=</HashCode>
+      <FileName>Model\Model.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="MVCExample.Controller.IController">
+    <Position X="2.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAIACAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Controller\IController.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MVCExample.Model.IModel">
+    <Position X="3.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAACAAAAAAAAAAIAAAAAAAAQgAA=</HashCode>
+      <FileName>Model\IModel.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MVCExample.View.IView" Collapsed="true">
+    <Position X="10.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\IView.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

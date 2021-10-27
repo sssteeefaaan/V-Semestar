@@ -1,0 +1,38 @@
+﻿@page
+@using Server.Pages
+@model ViewTurniriModel
+@{
+    Layout = "_Layout";
+    ViewData["Tittle"] = "Turniri";
+}
+@section Style{
+    <link rel="stylesheet" href="Styles/Stil.css">
+}
+@section Scripts{
+    <script src="Scripts/ScriptViewTurniri.js"></script>
+}
+
+<h1>Lista svih turnira u bazi podataka</h1>
+<table>
+    <tr>
+        <th>Naziv</th>
+        <th>Broj Disciplina</th>
+        <th>Maksimalni Broj Disciplina</th>
+        <th>Trenutni Broj Učesnika</th>
+        <th>Discipline</th>
+        <th>Izmeni</th>
+        <th>Obriši</th>
+    </tr>
+    @for(int i = 0; i < Model.Turniri.Count; i++)
+    {
+        <tr>
+            <td>@Model.Turniri[i].Naziv</td>
+            <td>@Model.TrenutniBrojDisciplina[i]</td>
+            <td>@Model.Turniri[i].MaxDisciplina</td>
+            <td>@Model.TrenutniBrojUcesnika[i]</td>
+            <td><a href="./ViewDisciplineTurnira?turnirID=@Model.Turniri[i].ID">Lista disciplina</a></td>
+            <td><a href="./UpdateTurnir?turnirID=@Model.Turniri[i].ID">Izmenite turnir</a></td>
+            <td><a href="./DeleteTurnir?turnirID=@Model.Turniri[i].ID">Obrišite turnir</a></td>
+        </tr>
+    }
+</table>

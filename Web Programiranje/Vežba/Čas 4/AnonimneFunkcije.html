@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+    </head>
+    <body>
+        <script>
+
+            // ANONIMNE FUNKCIJE
+            // *Funkcije bez eksplicitnog imenovanja
+            // Prednosti: brzina kodiranja, korišćenje na samo jednom mestu, pristup promenljivama iz roditeljskog scope-a,
+            // kontinuirana čitljivost koda, ne zauzima mesto u trenutnom namespace-u
+
+            var obj={x:150, y:120};
+            obj.kretanje=function(dx,dy){this.x+=dx;this.y+=dy;};
+
+            console.log(obj, obj.x, obj.y);
+
+            obj.kretanje(5,-10);
+            console.log(obj, obj.x, obj.y);
+
+            window.setTimeout(function(){window.open("http://google.com",'_blank');}, 5000);
+
+            var a = [2, 4, -5, 6, -9];
+            var a2 = a.map(function(el){return el>0;});
+
+            console.log(a);
+            console.log(a2);
+
+        </script>
+    </body>
+</html>

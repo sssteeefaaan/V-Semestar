@@ -1,0 +1,5 @@
+c:\users\petar\documents\visual studio 2015\Projects\ObserverDemo\ObserverDemoApi\bin\Debug\ObserverDemoApi.dll
+c:\users\petar\documents\visual studio 2015\Projects\ObserverDemo\ObserverDemoApi\bin\Debug\ObserverDemoApi.pdb
+c:\users\petar\documents\visual studio 2015\Projects\ObserverDemo\ObserverDemoApi\obj\Debug\ObserverDemoApi.csprojResolveAssemblyReference.cache
+c:\users\petar\documents\visual studio 2015\Projects\ObserverDemo\ObserverDemoApi\obj\Debug\ObserverDemoApi.dll
+c:\users\petar\documents\visual studio 2015\Projects\ObserverDemo\ObserverDemoApi\obj\Debug\ObserverDemoApi.pdb

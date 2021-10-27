@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+    </head>
+    <body>
+        <script>
+
+            // Callback funkcije
+            // *Mehanizam da se funkcija prosledi kao parametar
+
+            function fun(){
+                document.body.style.backgroundColor="#0000FF";
+            }
+
+            // Tajmer
+            window.setTimeout(fun,5000);    // Poziva fun nakon 5 sekundi
+
+            let d = document.createElement("div");
+            d.innerHTML="Block";
+            d.addEventListener("click",klik);
+            document.body.appendChild(d);
+
+            
+            function klik(){
+                this.style.color="#FF0000";
+            }
+
+            var niz = [2, 4, -5, 6, -9];
+            function nadjiPozitivni(el){return el>0;}
+
+            var nizPoz = niz.map(nadjiPozitivni);
+
+            console.log(niz);
+            console.log(nizPoz);
+            
+        </script>
+    </body>
+</html>

@@ -1,0 +1,15 @@
+table, tr, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: 32px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+}
+
+.novi {
+    font-size: 32px;
+}

@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>CurveDraw (using OpenGL)</string>
+  </property>
+  <widget class="View" name="centralWidget">
+   <property name="cursor">
+    <cursorShape>CrossCursor</cursorShape>
+   </property>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="action_New"/>
+    <addaction name="action_Open"/>
+    <addaction name="action_Save"/>
+    <addaction name="actionSave_As"/>
+    <addaction name="separator"/>
+    <addaction name="actionE_xit"/>
+   </widget>
+   <widget class="QMenu" name="menu_Width">
+    <property name="title">
+     <string>&amp;Width</string>
+    </property>
+    <addaction name="action_1"/>
+    <addaction name="action_3"/>
+    <addaction name="action_5"/>
+    <addaction name="action_10"/>
+   </widget>
+   <widget class="QMenu" name="menuColor">
+    <property name="title">
+     <string>Color</string>
+    </property>
+    <addaction name="action_Black"/>
+    <addaction name="action_Red"/>
+    <addaction name="action_Green"/>
+    <addaction name="action_Blue"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menu_Width"/>
+   <addaction name="menuColor"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="action_New"/>
+   <addaction name="action_Open"/>
+   <addaction name="action_Save"/>
+   <addaction name="separator"/>
+   <addaction name="action_1"/>
+   <addaction name="action_3"/>
+   <addaction name="action_5"/>
+   <addaction name="action_10"/>
+   <addaction name="separator"/>
+   <addaction name="action_Black"/>
+   <addaction name="action_Red"/>
+   <addaction name="action_Green"/>
+   <addaction name="action_Blue"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="action_New">
+   <property name="icon">
+    <iconset resource="MainWindow.qrc">
+     <normaloff>:/Images/Images/new.png</normaloff>:/Images/Images/new.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;New</string>
+   </property>
+   <property name="statusTip">
+    <string>Create new document</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+N</string>
+   </property>
+  </action>
+  <action name="action_Open">
+   <property name="icon">
+    <iconset resource="MainWindow.qrc">
+     <normaloff>:/Images/Images/open.png</normaloff>:/Images/Images/open.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Open...</string>
+   </property>
+   <property name="statusTip">
+    <string>Open existing document</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+O</string>
+   </property>
+  </action>
+  <action name="action_Save">
+   <property name="icon">
+    <iconset resource="MainWindow.qrc">
+     <normaloff>:/Images/Images/save.png</normaloff>:/Images/Images/save.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Save</string>
+   </property>
+   <property name="statusTip">
+    <string>Save document</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+S</string>
+   </property>
+  </action>
+  <action name="actionSave_As">
+   <property name="text">
+    <string>Save &amp;As...</string>
+   </property>
+   <property name="statusTip">
+    <string>Save document as</string>
+   </property>
+  </action>
+  <action name="actionE_xit">
+   <property name="text">
+    <string>E&amp;xit</string>
+   </property>
+   <property name="statusTip">
+    <string>Exit application</string>
+   </property>
+  </action>
+  <action name="action_1">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>&amp;1 pix</string>
+   </property>
+  </action>
+  <action name="action_3">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>&amp;3 pix</string>
+   </property>
+  </action>
+  <action name="action_5">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>&amp;5 pix</string>
+   </property>
+  </action>
+  <action name="action_10">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>&amp;10 pix</string>
+   </property>
+  </action>
+  <action name="action_Black">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>&amp;Black</string>
+   </property>
+  </action>
+  <action name="action_Red">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>&amp;Red</string>
+   </property>
+  </action>
+  <action name="action_Green">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>&amp;Green</string>
+   </property>
+  </action>
+  <action name="action_Blue">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>&amp;Blue</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>View</class>
+   <extends>QWidget</extends>
+   <header>view.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="MainWindow.qrc"/>
+ </resources>
+ <connections/>
+</ui>

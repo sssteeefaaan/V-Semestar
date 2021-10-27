@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/ikonice">
+        <file>ICONS/copy.png</file>
+        <file>ICONS/cut.png</file>
+        <file>ICONS/new.png</file>
+        <file>ICONS/open.png</file>
+        <file>ICONS/paste.png</file>
+        <file>ICONS/save.png</file>
+        <file>ICONS/search.png</file>
+    </qresource>
+    <qresource prefix="/new/prefix1"/>
+</RCC>

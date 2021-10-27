@@ -1,0 +1,22 @@
+﻿@page
+@using Server.Pages
+@model IndexModel
+@{
+    Layout = "_Layout";
+    ViewData["Tittle"] = "Welcome";
+}
+@section Style{
+    <link rel="stylesheet" href="Styles/WelcomeStyle.css">
+}
+<div class="indexDiv">
+    <h1>Dobro došli u našu bazu podataka, izaberite pregled stavki:</h1>
+    <form method="POST">
+        @Html.AntiForgeryToken()
+        <select name="izbor">
+            <option value="Turniri">Pregled Svih Turnira</option>
+            <option value="Discipline">Pregled Svih Disciplina</option>
+            <option value="Ucesnike">Pregled Svih Učesnika</option>
+        </select>
+        <input type="submit" value="View">
+    </form>
+</div>

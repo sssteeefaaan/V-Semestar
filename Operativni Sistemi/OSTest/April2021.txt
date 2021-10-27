@@ -1,0 +1,87 @@
+April 2021
+
+1. Pitanje
+	- Kada je valid bit unutar stavke tabele stranica jednak 0 => greška stranice
+	- Pri nastanku greške i fatalnog izuzetka
+	- Pri sistemskom pozivu
+	- deljenje nulom => trap
+	* Skače na prekidnu rutinu i izvršava je, sa prelaskom u kernel mode
+
+2. Pitanje
+	- Jer se blokirao i čeka određeni događaj (U/I)
+	- Jer se proces terminirao
+	- Jer je proces suspendovan
+
+3. Pitanje
+	a) Izvršavanjem sistemskog poziva, pozvaće se trap, promeniće se korisnički režim u kernel i obrađivaće se prekidna rutina. Zbog context switch-a, biraće se neka od preostalih niti (T12, T21, T22)
+	b) Može se izvršiti bilo koja sem T22, zavisi od algoritma
+	c) Mogu se izvršiti T11 ili T12, jer se proces P2 blokira na semaforu, naravno ukoliko nije došlo do uzajamnog blokiranja
+
+4. Pitanje
+	semaphore s1, s2, s3
+	void P1()
+	{
+		semWait(s1);
+		// S1
+		semSignal(s2);
+	}
+	void P2()
+	{
+		semWait(s2);
+		// S2
+		semSignal(s3);
+	}
+	void P3()
+	{
+		semWait(s3);
+		// S3
+		semSignal(s1);
+	}
+	void main()
+	{
+		s1.count = 1;
+		s2.count = 0;
+		s3.count = 0;
+		parbegin(P1, P2, P3);
+	}
+	
+5. Pitanje
+	monitor A;
+	cond uslov;
+	bool islocked=false;
+
+	void wait()
+	{
+	   if(islocked==true)
+			 cwait(uslov);
+	islocked=true;
+	}
+
+	void signal()
+	{
+		if(islocked==true)
+		 {    
+				  islocked=false;
+				   csignal(uslov);
+		 }
+	}
+
+6. Pitanje
+	a) Virtuelna adresa ima 22 + 11 = 33b
+	b) Fizička adresa ima 17 + 11 = 28b
+	c) Offset iznosi 11b
+	d) Invertovana tabela stranica ima 2^17 ulaza, po jedan za svaki okvir
+	e) O(1)
+	
+7. Izmena će se desiti za 4. stranicu i to će se promeniti validni bit (1), referencirani bit (1), modifikovani ostaje 0, a za vrednost okvira se mogu izabrati slobodni stranični okviri 1 ili 3.
+
+8. Moderni operativni sistemi koriste RR algoritam raspoređivanja sa prioritetom koji računaju vrlo često. Ukoliko neki proces ostane duže da se izvršava, on prelazi u redove nižeg prioriteta, a s obzirom da se U/I operacije vrlo izvršavaju na procesoru (većinom se čeka odgovor perifernog uređaja), njihov prioritet će rasti u odnosu na one kojima je potrobno vreme na procesoru i samim tim se CPU orijentisani procesi kažnjavaju, opadanjem prioriteta.
+
+9. 	FAT32 (File Allocation Table) 32, kako sam naziv govori, koristi tabelu alociranih fajlova, koja je ulančana. Linkove na početak ovih fajlova skladišti u tabeli za direktorijume, koja ujedno sadrži i podatke o podacima (metapodatke) o fajlovima.
+	NTFS (New Technology File System) - Google
+	EXT4 - Google
+	
+10. Strategije za ubrzanje pristupa podacima na disku su:
+	1. Algoritam raspoređivanja diska
+	2. RAID
+	3. Keširanje

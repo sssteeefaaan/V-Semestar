@@ -1,0 +1,16 @@
+﻿@page
+@using Server.Pages
+@model CreatePolicaModel
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Kreiraj novu policu";
+}
+<h2>Unesite informacije o novoj polici za video klub"@Model.Polica.VideoKlub.Naziv"</h2>
+<form method="POST">
+    @Html.AntiForgeryToken()
+    <p><input type="text" name="Polica.Oznaka" placeholder="Žanr"></p>
+    <p><input type="text" name="Polica.Boja" placeholder="Boja"></p>
+    <p><input type="number" name="Polica.Curr" placeholder="Trenutno"></p>
+    <p><input type="number" name="Polica.Max" placeholder="Max"></p>
+    <p><input type="submit" value="Dodaj novu policu"></p>
+</form>

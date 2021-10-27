@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+    </head>
+    <body>
+        <script>
+
+            // FILTER
+            // Funkcija kreira novi niz sa elementima za koje prosleđen argument funkcije vraća true vrednost
+
+            let X = 6;
+            let words = ['spray', 'destruction', 'present', 'exuberant', 'limit', 'elite'];
+            console.log(words);
+
+            const resFilt1 = words.filter(word => word.length > X);
+            console.log(resFilt1);
+
+            const resFilt2 = words.filter(word => {return word.length > X});
+            console.log(resFilt2);
+
+            const resFilt3 = words.filter(function(word) { return word.length > X});
+            console.log(resFilt3);
+
+        </script>
+    </body>
+</html>

@@ -1,0 +1,409 @@
+Jun 2020
+	1. Pitanje
+		Prekid kloka uzrokuje prelazak u kernel mode, jer je potrebno izvršiti context switch, a za to je neohpodan OS.
+		u kernel modu se izvršavaju svi sistemski pozivi, a to su execve(), read() i semWait()
+		
+	2. Pitanje
+	Kada se fork()-ovanjem kreira dete proces, onda on sa svojim roditeljem deli programski kod, dok su stek i heap odvojeni
+	Prilikom izvršavanja programa, forkuje se proces, u heap-u child procesa se vrednost value postavlja na 20, dok parent proces štampa vrednost svoje promenljive value, koja iznosi 5.
+	Dakle ispisaće se na ekranu "PARENT: value = 5"
+	
+	3. Pitanje
+		a) Aktivni proces, po pozivu sistemske funkcije mora da pređe u stanje blokrian i čeka da se ovaj poziv izvrši, bez obzira da li je on blokirajući ili ne
+		b) -||- Pri čemu, ukoliko je receive blokirajući, preći će u red blokiranih procesa koji čekaju na ovaj event
+		c) Preći će iz stanja Blokiran u stanje Block Suspendovan
+		d) Izvršenjem compare_and_swap() atomične instrukcije će proces ostati u stanju Running
+		e) Pri nastanku prekida clock-a, Running proces prelazi u Ready stanje
+	
+	4. Pitanje
+		a) P1 proces se blokira i mogu se izvršiti T21 ili T22 niti procesa P2
+		b) S obzirom da jacketing vrši prevenciju od blokiranja sistemskim pozivom, ovo će omogućiti da se izvrši thread T21
+		c) Sistemski poziv semWait poziva trap, koji blokira nit, dok se čeka obrada sistemskog poziva. T11, T12 ili T22 su mogući thread-ovi koji bi se sledeći izvršili
+		d) Ovo zavisi od algoritma koji se koristi za raspoređivanje niti, ukoliko je on preemptive, onda će se pozvati trap, preći u kernel, obustaviti T11, zameniti joj se stanje, izabraće se T12, promeniće joj se TCB i ona će se sledeća izvršavati po povratku u kernel režim.
+		
+	5. Pitanje
+		// Fejkara od koda koji ne radi nigde
+		int n;
+		int* buffer;
+		int in;
+		int out;
+		byte prvi;
+		
+		semaphore s1, s2, s3;
+		
+		void P1()
+		{
+			while(true)
+			{
+				semWait(s3);
+				semWait(s1);
+				
+				buffer[in] = 1;
+				in = (in + 1) % n;
+				
+				semSignal(s1);
+				semSignal(s2);	
+			}
+		}
+		
+		void P2()
+		{
+			while(true)
+			{
+				semWait(s4);
+				semWait(s1);
+				
+				buffer[in] = 2;
+				in = (in + 1) % n;
+				
+				semSignal(s1);
+				semSignal(s2);
+			}
+		}
+		
+		void P3()
+		{
+			while(true)
+			{
+				semWait(s2);
+				semWait(s1);
+				
+				printf("Vrednost: %d\n", buffer[out]);
+				out = (out + 1) % n;
+				
+				semSignal(s1);
+				
+				if(prvi != prvi)
+					semSignal(s3);
+				else
+					semSignal(s4);
+			}
+		}
+		
+		void main()
+		{
+			in = out = 0;
+			prvi = 0;
+			scanf("%d", &n);
+			
+			buffer = new int[n];
+			
+			s1 = 1;
+			s2 = 0;
+			s3 = 1;
+			s4 = 0;
+			
+			parbegin(P1, P2, P3);
+		}
+		
+	// C - Linux code
+		#include <stdio.h>
+		#include <stdlib.h>
+		#include <pthread.h>
+		#include <semaphore.h>
+		#include <unistd.h>
+
+		int n;
+		int* buffer;
+		int in;
+		int out;
+		char prvi;
+
+		sem_t s1, s2, s3, s4;
+
+		void P1()
+		{
+			while(1)
+			{
+				sem_wait(&s3);
+				sem_wait(&s1);
+				
+				buffer[in] = 1;
+				in = (in + 1) % n;
+				
+				sem_post(&s1);
+				sem_post(&s2);	
+			}
+		}
+
+		void P2()
+		{
+			while(1)
+			{
+				sem_wait(&s4);
+				sem_wait(&s1);
+				
+				buffer[in] = 2;
+				in = (in + 1) % n;
+				
+				sem_post(&s1);
+				sem_post(&s2);
+			}
+		}
+
+		void P3()
+		{
+			while(1)
+			{
+				sem_wait(&s2);
+				sem_wait(&s1);
+				
+				printf("Vrednost: %d\n", buffer[out]);
+				out = (out + 1) % n;
+				
+				//sleep(1);
+				
+				sem_post(&s1);
+				
+				if(prvi == 1)
+				{
+					prvi = 0;
+					sem_post(&s3);
+				}
+				else
+				{
+					prvi = 1;
+					sem_post(&s4);
+				}
+			}
+		}
+
+		void main()
+		{
+			in = out = 0;
+			prvi = 0;
+			scanf("%d", &n);
+			
+			buffer = (int*)malloc(sizeof(int)*n); 
+			
+			sem_init(&s1, 0, 1);
+			sem_init(&s2, 0, 0);
+			sem_init(&s3, 0, 1);
+			sem_init(&s4, 0, 0);
+			
+			pthread_t t1, t2, t3;
+			
+			pthread_create(&t1, NULL, (void*) P1, NULL);
+			pthread_create(&t2, NULL, (void*) P2, NULL);
+			pthread_create(&t3, NULL, (void*) P3, NULL);
+			
+			scanf("%d", &n);
+			
+			pthread_cancel(t3);
+			pthread_cancel(t2);
+			pthread_cancel(t1);
+			
+			sem_destroy(&s1);
+			sem_destroy(&s2);
+			sem_destroy(&s3);
+			
+			if(buffer) free(buffer);
+		}
+		
+	6. Pitanje
+		 ____7b_________12b_________11b___
+		|          |           |          |
+		| SEGMENT# |   PAGE#   |  OFFSET  |
+		|__________|___________|__________|
+		
+		MAX ADDRESS SPACE = 128 * 2^12 * 2KB = 2^7 * 2^12 * 2^11 = 2^20 B
+		
+	7. Pitanje
+		CLK algoritam zamene stranice
+		Zahtevi: 32, 14, 15, 2, 18, 14
+		
+		Inicijalno stanje
+		 ______________________v___________________________________________________________
+		|                  |       |       |       |       |       |       |       |       |
+		| Stranični okvir  |   0   |   1   |   2   |   3   |   4   |   5   |   6   |   7   |
+		|__________________|_______|_______|_______|_______|_______|_______|_______|_______|
+		|				   |       |       |       |       |       |       |       |       |
+		| Stranica         |  17   |  32   |  41   |   5   |   7   |  13   |   2   |  20   |
+		|__________________|_______|_______|_______|_______|_______|_______|_______|_______|
+		|                  |       |       |       |       |       |       |       |       |
+		| Bit upotrebe     |   1   |   0   |   0   |   0   |   0   |   1   |   1   |   1   |
+		|__________________|_______|_______|_______|_______|_______|_______|_______|_______|
+		|                  |       |       |       |       |       |       |       |       |
+		| Bit modifikacije |   0   |   0   |   1   |   1   |   0   |   0   |   1   |   0   |
+		|__________________|_______|_______|_______|_______|_______|_______|_______|_______|
+		
+		Zahtev za stranom: 32
+		 ______________________________________v___________________________________________
+		|                  |       |       |       |       |       |       |       |       |
+		| Stranični okvir  |   0   |   1   |   2   |   3   |   4   |   5   |   6   |   7   |
+		|__________________|_______|_______|_______|_______|_______|_______|_______|_______|
+		|				   |       |       |       |       |       |       |       |       |
+		| Stranica         |  17   |  32   |  41   |   5   |   7   |  13   |   2   |  20   |
+		|__________________|_______|_______|_______|_______|_______|_______|_______|_______|
+		|                  |       |       |       |       |       |       |       |       |
+		| Bit upotrebe     |   1   |   1*  |   0   |   0   |   0   |   1   |   1   |   1   |
+		|__________________|_______|_______|_______|_______|_______|_______|_______|_______|
+		|                  |       |       |       |       |       |       |       |       |
+		| Bit modifikacije |   0   |   0   |   1   |   1   |   0   |   0   |   1   |   0   |
+		|__________________|_______|_______|_______|_______|_______|_______|_______|_______|
+		
+		Zahtev za stranom: 14
+		 ______________________________________________________________v___________________
+		|                  |       |       |       |       |       |       |       |       |
+		| Stranični okvir  |   0   |   1   |   2   |   3   |   4   |   5   |   6   |   7   |
+		|__________________|_______|_______|_______|_______|_______|_______|_______|_______|
+		|				   |       |       |       |       |       |       |       |       |
+		| Stranica         |  17   |  32   |  41   |   5   |  14*  |  13   |   2   |  20   |
+		|__________________|_______|_______|_______|_______|_______|_______|_______|_______|
+		|                  |       |       |       |       |       |       |       |       |
+		| Bit upotrebe     |   1   |   1   |   0   |   0   |   1*  |   1   |   1   |   1   |
+		|__________________|_______|_______|_______|_______|_______|_______|_______|_______|
+		|                  |       |       |       |       |       |       |       |       |
+		| Bit modifikacije |   0   |   0   |   1   |   1   |   1*  |   0   |   1   |   0   |
+		|__________________|_______|_______|_______|_______|_______|_______|_______|_______|
+		
+		Zahtev za stranom: 15
+		Pravi ceo krug (od 5. okvira), jer nema (u, m) == (0, 0), a onda svima postavlja u = 0, dok ne naiđe na (u, m) == (0, 1)
+		 ______________________________________________v___________________________________
+		|                  |       |       |       |       |       |       |       |       |
+		| Stranični okvir  |   0   |   1   |   2   |   3   |   4   |   5   |   6   |   7   |
+		|__________________|_______|_______|_______|_______|_______|_______|_______|_______|
+		|				   |       |       |       |       |       |       |       |       |
+		| Stranica         |  17   |  32   |  15*  |   5   |  14   |  13   |   2   |  20   |
+		|__________________|_______|_______|_______|_______|_______|_______|_______|_______|
+		|                  |       |       |       |       |       |       |       |       |
+		| Bit upotrebe     |   0*  |   0*  |   1*  |   0   |   1   |   0*  |   0*  |   0*  |
+		|__________________|_______|_______|_______|_______|_______|_______|_______|_______|
+		|                  |       |       |       |       |       |       |       |       |
+		| Bit modifikacije |   0   |   0   |   0*  |   1   |   1   |   0   |   1   |   0   |
+		|__________________|_______|_______|_______|_______|_______|_______|_______|_______|
+		
+		Zahtev za stranom: 2
+		 ______________________________________________v___________________________________
+		|                  |       |       |       |       |       |       |       |       |
+		| Stranični okvir  |   0   |   1   |   2   |   3   |   4   |   5   |   6   |   7   |
+		|__________________|_______|_______|_______|_______|_______|_______|_______|_______|
+		|				   |       |       |       |       |       |       |       |       |
+		| Stranica         |  17   |  32   |  15   |   5   |  14   |  13   |   2   |  20   |
+		|__________________|_______|_______|_______|_______|_______|_______|_______|_______|
+		|                  |       |       |       |       |       |       |       |       |
+		| Bit upotrebe     |   0   |   0   |   1   |   0   |   1   |   0   |   0   |   0   |
+		|__________________|_______|_______|_______|_______|_______|_______|_______|_______|
+		|                  |       |       |       |       |       |       |       |       |
+		| Bit modifikacije |   0   |   0   |   0   |   1   |   1   |   0   |   1   |   0   |
+		|__________________|_______|_______|_______|_______|_______|_______|_______|_______|
+		
+		Zahtev za stranom: 18
+		 ______________________________________________________________________v___________
+		|                  |       |       |       |       |       |       |       |       |
+		| Stranični okvir  |   0   |   1   |   2   |   3   |   4   |   5   |   6   |   7   |
+		|__________________|_______|_______|_______|_______|_______|_______|_______|_______|
+		|				   |       |       |       |       |       |       |       |       |
+		| Stranica         |  17   |  32   |  15   |   5   |  14   |  18*  |   2   |  20   |
+		|__________________|_______|_______|_______|_______|_______|_______|_______|_______|
+		|                  |       |       |       |       |       |       |       |       |
+		| Bit upotrebe     |   0   |   0   |   1   |   0   |   1   |   1*  |   0   |   0   |
+		|__________________|_______|_______|_______|_______|_______|_______|_______|_______|
+		|                  |       |       |       |       |       |       |       |       |
+		| Bit modifikacije |   0   |   0   |   0   |   1   |   1   |   0   |   1   |   0   |
+		|__________________|_______|_______|_______|_______|_______|_______|_______|_______|
+		
+		Zahtev za stranom: 14
+		 ______________________________________________________________________v___________
+		|                  |       |       |       |       |       |       |       |       |
+		| Stranični okvir  |   0   |   1   |   2   |   3   |   4   |   5   |   6   |   7   |
+		|__________________|_______|_______|_______|_______|_______|_______|_______|_______|
+		|				   |       |       |       |       |       |       |       |       |
+		| Stranica         |  17   |  32   |  15   |   5   |  14   |  18*  |   2   |  20   |
+		|__________________|_______|_______|_______|_______|_______|_______|_______|_______|
+		|                  |       |       |       |       |       |       |       |       |
+		| Bit upotrebe     |   0   |   0   |   1   |   0   |   1   |   1*  |   0   |   0   |
+		|__________________|_______|_______|_______|_______|_______|_______|_______|_______|
+		|                  |       |       |       |       |       |       |       |       |
+		| Bit modifikacije |   0   |   0   |   0   |   1   |   1   |   0   |   1   |   0   |
+		|__________________|_______|_______|_______|_______|_______|_______|_______|_______|
+		
+	8. Pitanje
+		 ______________________________________________
+		|		 |                 |                   |
+		| Proces | Vreme izvršenja | Vreme aktiviranja |
+		|________|_________________|___________________|
+		|		 |                 |                   |
+		|   A    |        3        |         0         |
+		|________|_________________|___________________|
+		|		 |                 |                   |
+		|   B    |        7        |         1         |
+		|________|_________________|___________________|
+		|		 |                 |                   |
+		|   C    |        2        |         3         |
+		|________|_________________|___________________|
+		|		 |                 |                   |
+		|   D    |        8        |         6         |
+		|________|_________________|___________________|
+		|		 |                 |                   |
+		|   E    |        5        |        10         |
+		|________|_________________|___________________|
+		
+		
+		i) RR (q = 2)
+		Duple zvezdice samo da bi bilo simetrično, a D i DD su Done (Terminated)
+		
+		 ________0___1_______3___________6________________10_________________________________________________________________________
+		|		 |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+		| Proces | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 |
+		|________|___|___|___|___|___|___|___|___|___|____|____|____|____|____|____|____|____|____|____|____|____|____|____|____|____|
+		|		 |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+		|   A    | * | * |   |   | D |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+		|________|___|___|___|___|___|___|___|___|___|____|____|____|____|____|____|____|____|____|____|____|____|____|____|____|____|
+		|		 |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+		|   B    |   |   | * | * |   |   |   | * | * |    |    | ** | ** |    |    |    |    | DD |    |    |    |    |    |    |    |
+		|________|___|___|___|___|___|___|___|___|___|____|____|____|____|____|____|____|____|____|____|____|____|____|____|____|____|
+		|		 |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+		|   C    |   |   |   |   |   | * | D |   |   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+		|________|___|___|___|___|___|___|___|___|___|____|____|____|____|____|____|____|____|____|____|____|____|____|____|____|____|
+		|		 |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+		|   D    |   |   |   |   |   |   |   |   |   | ** | ** |    |    |    |    | ** | ** |    |    |    | ** | ** |    | ** | DD |
+		|________|___|___|___|___|___|___|___|___|___|____|____|____|____|____|____|____|____|____|____|____|____|____|____|____|____|
+		|		 |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+		|   E    |   |   |   |   |   |   |   |   |   |    |    |    |    | ** | ** |    |    |    | ** | ** |    |    | DD |    |    |
+		|________|___|___|___|___|___|___|___|___|___|____|____|____|____|____|____|____|____|____|____|____|____|____|____|____|____|
+		
+		ii) ML Feedback q = 2^i
+		
+		 ________0___1_______3___________6________________10_________________________________________________________________________
+		|		 |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+		| Proces | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 |
+		|________|___|___|___|___|___|___|___|___|___|____|____|____|____|____|____|____|____|____|____|____|____|____|____|____|____|
+		|		 |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+		|   A    | * |   | * | D |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+		|________|___|___|___|___|___|___|___|___|___|____|____|____|____|____|____|____|____|____|____|____|____|____|____|____|____|
+		|		 |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+		|   B    |   | * |   |   |   | * | * |   |   |    |    |    |    |    | ** | ** | ** | DD |    |    |    |    |    |    |    |
+		|________|___|___|___|___|___|___|___|___|___|____|____|____|____|____|____|____|____|____|____|____|____|____|____|____|____|
+		|		 |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+		|   C    |   |   |   |   | * |   |   |   | D |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+		|________|___|___|___|___|___|___|___|___|___|____|____|____|____|____|____|____|____|____|____|____|____|____|____|____|____|
+		|		 |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+		|   D    |   |   |   |   |   |   |   | * |   | ** | ** |    |    |    |    |    |    |    | ** | ** | ** | ** |    |    | DD |
+		|________|___|___|___|___|___|___|___|___|___|____|____|____|____|____|____|____|____|____|____|____|____|____|____|____|____|
+		|		 |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+		|   E    |   |   |   |   |   |   |   |   |   |    |    | ** | ** | ** |    |    |    |    |    |    |    |    | ** | DD |    |
+		|________|___|___|___|___|___|___|___|___|___|____|____|____|____|____|____|____|____|____|____|____|____|____|____|____|____|
+		
+	9.
+		a) Kontinualna 21.2 ms
+		b) Ulančana 130.4 ms
+		c) Indeksirana 1004 ms
+		
+	10.
+		a)  Imamo i-node za root "/" => čitamo njegov sadržaj iz bloka (1)
+			Izlistavamo sadržaj, nalazimo adresu i-node-a za "/usr", pristupamo tom i-node-u => (2)
+			Imamo i-node za "/usr" => čitamo njegov sadržaj iz bloka (3)
+			Izlistavamo sadržaj i nalazimo adresu i-node-a za "/usr/elfak", pristupamo tom i-node-u => (4)
+			Imamo i-node "/usr/elfak" => čitamo njegov sadržaj iz bloka (5)
+			Izlistavamo sadržaj i nalazimo i-node za "/usr/elfak/os", pristupamo tom i-node-u => (6)
+			Konačno, čitamo sadržaj "/usr/elfak/os" iz prvog bloka u i-node-u => (7)
+			
+			ΣPristupa = 7
+		
+		b) Smatramo da je blok koji sadrži "/usr/elfak" u memoriji, pa izlistavamo njegov sadržaj i nalazimo adresu i-node-a za "/usr/elfak/miks"
+			Učitavamo i-node za "/usr/elfak/miks" => (1)
+			Čitamo sadržaj iz prvog bloka i-node-a => (2)
+			
+			ΣPristupa = 2
+		

@@ -1,0 +1,17 @@
+﻿@page
+@using Primer1.Pages
+@model NapraviVrtModel
+@{
+    ViewData["Title"] = "Kreiraj vrt";
+    Layout = "_Layout";
+}
+
+<form method="Post">
+    @Html.AntiForgeryToken()
+    <h1>Unesite podatke o novo vrtu:</h1>
+    <p><input type="text" name="Vrt.Naziv" placeholder="Naziv"></p>
+    <p><input type="text" name="Vrt.Kapacitet" placeholder="Kapacitet"></p>
+    <p><input type="text" name="Vrt.N" placeholder="N"></p>
+    <p><input type="text" name="Vrt.M" placeholder="M"></p>
+    <p><input type="submit" value="Kreiraj novi vrt"></p>
+</form>

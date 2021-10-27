@@ -1,0 +1,35 @@
+﻿@page
+@using Server.Pages
+@model ViewPoliceModel
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Police";
+}
+@section Styles{
+    <link rel="stylesheet" href="Styles/Stil.css">
+}
+<h1>Pregled polica video kluba @Model.VKlub.Naziv</h1>
+<table>
+    <tr>
+        <th>Žanr</th>
+        <th>Boja</th>
+        <th>Broj kopija</th>
+        <th>Kapacitet</th>
+        <th>Izmeni</th>
+        <th>Obriši</th>
+        <th>Naziv video kluba</th>
+    </tr>
+    @foreach (var polica in Model.VKlub.Police)
+    {
+        <tr>
+            <td>@polica.Oznaka</td>
+            <td>@polica.Boja</td>
+            <td>@polica.Curr</td>
+            <td>@polica.Max</td>
+            <th><a href="./UpdatePolica?id=@polica.VideoKlubID&oznaka=@polica.Oznaka">Izmeni</a></th>
+            <th><a href="./DeletePolica?id=@polica.VideoKlubID&oznaka=@polica.Oznaka">Obriši</a></th>
+            <td>@polica.VideoKlub.Naziv</td>
+        </tr>
+    }
+</table>
+<a href="./CreatePolica?id=@Model.VKlub.ID">Napravi novu policu</a>

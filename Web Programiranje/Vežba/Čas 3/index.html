@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+    </head>
+    <body>
+        <script>
+
+            var xU;
+            var x5 = 5
+            let x10 = 10;
+            let s10 = "10";
+
+            console.log(x5 + x10);      // zbir
+            console.log(x5 + s10);      // konkatenacija
+            console.log(x5 === s10);    // provera tipova
+
+            // Hosting
+
+            h1 = "ne znam koji je tip";
+            let h2= " ja sam string";
+
+            console.log(h1 + h2);
+
+            var h1;
+
+            // Interpolacija
+
+            let s1="prvi", s2="drugi";
+            let i1=`Ovo je prvi string: ${s1}, a ovo je drugi string: ${s2}.`;
+
+            console.log(i1);
+
+            // Funkcije
+
+            function fun(t){
+
+                let temp = 5;
+                let x10 = 10 + t;
+                s1=8;
+                return temp + x10;
+            }
+
+            console.log(fun(5));
+            console.log(x10);
+            console.log(s1);
+
+            fun1("hosting 1", "hosting 2", "hosting 3"); // Java zna za sve promenljive i funkcije
+
+            function fun1(prvi, drugi, treci){
+
+                if(arguments.length!=3)
+                    throw Error("Neispravan broj parametara!");
+                console.log("Prvi parametar je: " + prvi);
+                console.log("Drugi parametar je: " + drugi);
+                console.log("Treci parametar je: " + treci);
+            }
+
+            fun1(1,2,3);
+
+            // Funkcionalni izraz
+
+            // Za njih ne radi hosting, jer ne dobijaju pokazivac na funkciju
+
+            // f("Ne radi!");
+
+            var f=function(par){
+
+                console.log("funkcijski izraz " + par);
+            }
+
+            f("test");
+
+        </script>
+    </body>
+</html>

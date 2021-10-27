@@ -1,0 +1,20 @@
+﻿@page
+@using Server.Pages
+@model CreateDisciplinaModel
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Kreiraj novu disciplinu";
+}
+@section Style{
+    <link rel="stylesheet" href="Styles/FormStil.css">
+}
+<div class="Container">
+    <h1>Unesite podatke o novoj disciplini:</h1>
+    <form method="POST">
+        @Html.AntiForgeryToken()
+        <p><input type="text" name="Disciplina.Naziv" placeholder="Naziv discipline"></p>
+        <p><input type="text" name="Disciplina.Lokacija" placeholder="Lokacija discipline"></p>
+        <p><input type="number" name="Disciplina.MaxUcesnici" placeholder="Maksimalni broj učesnika"></p>
+        <p><input type="submit" value="Dodaj disciplinu"></p>
+    </form>
+</div>

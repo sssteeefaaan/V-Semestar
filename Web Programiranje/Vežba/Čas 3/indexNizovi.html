@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+    </head>
+    <body>
+        <script>
+
+
+        // Nizovi
+
+            // Deklaracija nizova
+            var cars1 = ["Saab", "Volvo", "BMW"];
+            var cars2=[];
+            var cars3=new Array("Saab","Volvo","BMW");
+            var cars4=new Array();
+            var cars5=Array();
+
+            // var imeNiza1 = [prviEl, drugiEl, treciEl, ...];
+            // var imeNiza2 = new Array(prviEl,drugiEl,treciEl, ...);
+            // var imeNiza3 = Array(prviEl,drugiEl,treciEl, ...);
+
+            console.log(cars1);
+            console.log(cars2);
+            console.log(cars3);
+            console.log(cars4);
+            console.log(cars5);
+
+            // Dodavanje/Izbacivanje elemenata niza
+
+            var chem=["He", "Li", "Be"];
+
+            console.log("Original array: " + chem);
+
+            chem[3]="B";
+            console.log("Added 4th element: " + chem);
+
+            chem.push("C");
+            console.log("Added element at the end: " + chem);
+
+            chem.unshift("H");
+            console.log("Added element at the begining: " + chem);
+
+            // var last=chem.pop();
+            // console.log(`Removed the last element (${last}) from the array: ${chem}`);
+            
+            // var first=chem.shift();
+            // console.log(`Removed the first element (${first}) from the array: ${chem}`);
+
+
+            // Obilazak
+                //For
+                let log="";
+                for(i=0;i<chem.length;i++){
+                    log+=`hemijskiElement[${i + 1}] = ${chem[i]}\n`;
+                }
+                console.log(log);
+
+                // For each I način
+                chem.forEach(function(x){
+                    console.log(x);
+                })
+
+                // For each II način
+                chem.forEach(function(x, i){
+                    console.log(`hemijskiElement[${i + 1}] = ${x}\n`);
+                })
+
+                // For each III način
+                chem.forEach(x =>{
+                    console.log(x);
+                })
+
+                // For each IV način
+                chem.forEach((x,i) =>{
+                    console.log(`hemijskiElement[${i + 1}] = ${x}\n`);
+                })
+
+        </script>
+    </body>
+</html>

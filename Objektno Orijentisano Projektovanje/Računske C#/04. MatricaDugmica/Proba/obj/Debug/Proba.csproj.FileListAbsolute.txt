@@ -1,0 +1,10 @@
+C:\Users\Aleksandar\Desktop\Proba\Proba\bin\Debug\Proba.exe.config
+C:\Users\Aleksandar\Desktop\Proba\Proba\bin\Debug\Proba.exe
+C:\Users\Aleksandar\Desktop\Proba\Proba\bin\Debug\Proba.pdb
+C:\Users\Aleksandar\Desktop\Proba\Proba\obj\Debug\Proba.csprojAssemblyReference.cache
+C:\Users\Aleksandar\Desktop\Proba\Proba\obj\Debug\Proba.FormDugmici.resources
+C:\Users\Aleksandar\Desktop\Proba\Proba\obj\Debug\Proba.Properties.Resources.resources
+C:\Users\Aleksandar\Desktop\Proba\Proba\obj\Debug\Proba.csproj.GenerateResource.cache
+C:\Users\Aleksandar\Desktop\Proba\Proba\obj\Debug\Proba.csproj.CoreCompileInputs.cache
+C:\Users\Aleksandar\Desktop\Proba\Proba\obj\Debug\Proba.exe
+C:\Users\Aleksandar\Desktop\Proba\Proba\obj\Debug\Proba.pdb

@@ -1,0 +1,29 @@
+Dodavanje referenci
+
+dotnet add package Microsoft.EntityFrameworkCore
+
+u appsettings.json dodati:
+"ConnectionStrings": {
+    "NAZIVCS":"Server=(localdb)\\BazaPodataka;Database=NAZIVDB"
+  }
+
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+
+services.AddDbContext<KlubContext>(optionsAction =>
+            {
+                optionsAction.UseSqlServer(Configuration.GetConnectionString("NAZIVCS"));
+            });
+
+dotnet add package Microsofr.EntityFrameworkCore.Design
+
+
+dotnet ef
+dotnet tool update dotnet-ef -g
+dotnet ef migrations add V1
+
+// sqllocaldb info
+// sqllocaldb create Naziv_Nove_Baze_Podataka
+// sqllocaldb info Naziv_Nove_Baze_Podataka
+// sqllocaldb start Naziv_Nove_Baze_Podataka
+
+dotnet ef database update

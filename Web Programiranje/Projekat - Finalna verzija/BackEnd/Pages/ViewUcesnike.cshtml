@@ -1,0 +1,36 @@
+﻿@page
+@using Server.Pages
+@model ViewUcesnikeModel
+@{
+    Layout = "_Layout";
+    ViewData["Tittle"] = "Lista učesnika discipline";
+}
+@section Style{
+    <link rel="stylesheet" href="Styles/Stil.css">
+}
+<h1>Lista svih učesnika u bazi podataka</h1>
+<table>
+    <tr>
+        <th>Ime</th>
+        <th>Prezime</th>
+        <th>Brzina</th>
+        <th>Rang</th>
+        <th>Disciplina</th>
+        <th>Turnir</th>
+        <th>Izmeni</th>
+        <th>Obriši</th>
+    </tr>
+    @for(int i=0;i<Model.Ucesnici.Count;i++)
+    {
+        <tr>
+            <td>@Model.Ucesnici[i].Ime</td>
+            <td>@Model.Ucesnici[i].Prezime</td>
+            <td>@Model.Ucesnici[i].Brzina</td>
+            <td>@Model.Ucesnici[i].Rang</td>
+            <td><a href="./ViewUcesnikeDiscipline?turnirID=@Model.Ucesnici[i].TurnirID&disciplinaID=@Model.Ucesnici[i].DisciplinaID">@Model.VratiDisciplinu(i)</td>
+            <td><a href="./ViewDisciplineTurnira?turnirID=@Model.Ucesnici[i].TurnirID">@Model.VratiTurnir(i)</td>
+            <td><a href="./UpdateUcesnik?turnirID=@Model.Ucesnici[i].TurnirID&disciplinaID=@Model.Ucesnici[i].DisciplinaID&ucesnikID=@Model.Ucesnici[i].ID">Izmeni</a></td>
+            <td><a href="./DeleteUcesnik?turnirID=@Model.Ucesnici[i].TurnirID&disciplinaID=@Model.Ucesnici[i].DisciplinaID&ucesnikID=@Model.Ucesnici[i].ID">Obriši</a></td>
+        </tr>
+    }
+</table>

@@ -1,0 +1,89 @@
+// Januar 2021
+
+// Algoritamski zadatak koji smo svi imali:
+// U neuređenom nizu celih brojeva [0-N) fali jedan od brojeva.
+// Napisati funkciju koja određuje koji broj fali sa vremenskom kompleksnošću O(n)
+// i prostornom O(1)
+
+function findMissingNumber(array)
+{
+    let ret = 0;
+    for (let i = 0; i < array.length; i++)
+        ret += i - array[i];
+    return ret + array.length;
+
+    // return array.reduce((acc, el, ind) => acc += ind - el, array.legnth);
+    // return array.reduce((acc, el) => acc -= el, array.length * (array.length + 1) / 2);
+}
+
+// Najbolje rešenje
+// Zasniva se na činjenici da važi
+// a1 ^ a2 ^ ... ^ an = x
+// a1 ^ a2 ^ ... ^ an-1 = y
+// x ^ y = an
+function findMissingNumberXor(array)
+{
+    let ret = 0;
+    for (let i = 0; i < array.length; i++)
+        ret ^= i ^ array[i];
+    return ret ^ array.length;
+    // return array.reduce((acc, el, ind) => acc ^= el ^ ind, array.length);
+}
+
+// Dodatni zadatak koji smo dobili kolega i ja kada smo došli kod njega
+// Bila je samo ideja, nije trebalo pisati kod
+// Pronaći karaktere koji se NE nalaze u datom stringu (a-z, A-Z)
+// Vremenska kompleksnost O(n)
+function findMissingCharacters(string)
+{
+    const dictionary = {};
+
+    for (const char of "qwertzuiopasdfghjklyxcvbnmQWERTZUIOPASDFGHJKLYXCVBN")
+        dictionary[char] = 0;
+
+    for (const char of string)
+        if (char >= 'A' && char <= 'B' || char >= 'a' && char <= 'z')
+            dictionary[char]++;
+
+    console.log(dictionary);
+
+    return Object.entries(dictionary)
+        .filter(([key, value]) => value === 0)
+        .map(([key, value]) => key);
+}
+
+// Kolegu je takođe pitao zadatak koji je bio na nekom od prošlih usmenih
+// Pronaći indeks za koji važi da je suma elemenata niza sa indeksom j<i (suma elemenata sa leve strane)
+// veća od sume elemenata istog niza sa indeksima k>i (suma elemenata sa desne strane)
+// Kompleksnost O(n)
+function findIndex(array)
+{
+    let sR = 0;
+    let sL = 0;
+    let i = 0;
+    let j = array.length - 1;
+    while (i < j) {
+        if (sL - array[i] > sR + array[j])
+            sR += array[j--];
+        else
+            sL += array[i++];
+    }
+
+    return i/*i == j*/;
+}
+
+const array = [1, 1, 1, 2, 1, 1, 1];
+
+console.log(findIndex(array));
+console.log(array);
+// for (let i = 0; i < 10000000; i++)
+//     if (i != 500)
+//         array.push(i);
+
+// let now = Date.now();
+// console.log(findMissingNumberXor(array));
+// console.log("Time: ", Date.now() - now);
+
+// now = Date.now();
+// console.log(findMissingNumber(array));
+// console.log("Time: ", Date.now() - now);

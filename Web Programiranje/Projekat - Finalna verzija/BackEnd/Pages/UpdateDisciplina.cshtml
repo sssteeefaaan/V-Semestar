@@ -1,0 +1,21 @@
+﻿@page
+@using Server.Pages
+@model UpdateDisciplinaModel
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Ažuriraj disciplinu";
+}
+@section Style{
+    <link rel="stylesheet" href="Styles/FormStil.css">
+}
+<div class="Container">
+    <h1>Unesite podatke o disciplini:</h1>
+    <form method="POST">
+        @Html.AntiForgeryToken()
+        <p><input type="hidden" name="GoBack" value="@Model.GoBack"></p>
+        <p><input type="text" name="Disciplina.Naziv" value="@Model.Disciplina.Naziv"></p>
+        <p><input type="text" name="Disciplina.Lokacija" value="@Model.Disciplina.Lokacija"></p>
+        <p><input type="number" name="Disciplina.MaxUcesnici" value="@Model.Disciplina.MaxUcesnici"></p>
+        <p><input type="submit" value="Izmeni disciplinu"></p>
+    </form>
+</div>

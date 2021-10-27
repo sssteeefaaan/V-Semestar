@@ -1,0 +1,20 @@
+﻿@page
+@using Server.Pages
+@model CreateUcesnikModel
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Kreiraj novog učesnika";
+}
+@section Style{
+    <link rel="stylesheet" href="Styles/FormStil.css">
+}
+<div class="Container">
+    <h1>Unesite podatke o učesniku:</h1>
+    <form method="POST">
+        @Html.AntiForgeryToken()
+        <p><input type="text" name="Ucesnik.Ime" placeholder="Ime učesnika"></p>
+        <p><input type="text" name="Ucesnik.Prezime" placeholder="Prezime učesnika"></p>
+        <p><input type="number" name="Ucesnik.Brzina" placeholder="Brzina učesnika"></p>
+        <p><input type="submit" value="Dodaj učesnika"></p>
+    </form>
+</div>

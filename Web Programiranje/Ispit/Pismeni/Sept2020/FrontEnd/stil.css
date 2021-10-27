@@ -1,0 +1,61 @@
+.ZooVrt{
+    display:flex;
+    flex-direction:column;
+    border:1px solid black;
+    margin:1%;
+}
+.ZooVrtHeader{
+    text-align:center;
+}
+.ZooVrtBody{
+    display:flex;
+    flex-direction:row;
+}
+
+.Unos{
+    display:flex;
+    flex-direction:column;
+    padding:1%;
+    text-align:center;
+}
+.Unos>*{
+    margin:1%;
+}
+
+.Dugmici, .Koordinate,.Koordinata{
+    display:flex;
+    flex-direction:row;
+}
+
+.Koordinate{
+    justify-content:space-between;
+}
+
+.Koordinata{
+    justify-content:space-evenly;
+    flex:1 1 100%;
+}
+
+.Koordinata>*{
+    margin:0.5%;
+}
+
+.Prikaz{
+    display:flex;
+    flex-direction:column;
+    flex:1 1 100%;
+    padding:1%;
+}
+
+.Red{
+    display:flex;
+    flex-direction:row;
+    flex:1 1 100%;
+}
+
+.Staniste{
+    margin:1%;
+    border:1px solid black;
+    text-align:center;
+    flex:1 1 100%;
+}

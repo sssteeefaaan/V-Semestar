@@ -1,0 +1,102 @@
+Oktobar 2020
+	1. Pitanje
+		Trap je instrukcija koja izaziva softverski prekid. OS čuva stanje prekinutog procesa, prelazi u mod kernela i poziva funkciju kernela (rutinu, system call handler) koja implementira sistemski poziv.
+	
+	2. Pitanje
+		a) Proces prelazi u stanje Ready:
+			1. Kada istekne klok dok je u stanju Running
+			2. Kada se desi event na koji čeka u stanju Blocked
+			3. Kada ga medium-term-scheduler vrati sa diska dok je u stanju Ready-Suspended
+		b) 
+			[DA] semWait(5) => Sistemski poziv, poziva se trap, prelazi se u kernel, izvršava se prekidna rutina
+			[DA] read() => Sistemski poziv, poziva se trap, prelazi se u kernel, proces se blokira i čeka se na U/I uređaj
+			[DA] sqrt(-5) => Nastaje trap, prelazi se u kernel, obrađuje se greška
+	
+	3. Pitanje
+		TCP (Thread Control Block) => Kontrolni blok niti sadrži:
+			Programski brojač
+			Pokazivač steka
+			Registre procesora
+			Stanje
+			Prioritet
+		
+		Kontrolni blok niti ne sadrži u sebi magacin, međutim ima pokazivače na korisnički i kernel stek.
+		TCB treba da bude resurno nezahtevna struktura, kako bi se lako menjao sadržaj i lako skladištila u redovima.
+	
+		"Kraj niti. a = 4 b = 10 Kraj glavne niti. Vrednosti a i b su: 1, 15 "
+		
+	4. Pitanje
+		monitor os;
+		bool isParni;
+		conditonal_variable naizmenicno;
+		
+		// Inicijalizacija
+		{
+			isParni = false;
+		}
+		
+		void proces()
+		{
+			if(isPrani == true)
+				cwait(naizmenicno);
+			
+			isParni ^= 1;
+			// kod procesa
+			
+			csignal(naizmenicno);
+		}
+	
+	5. Pitanje
+	
+		R = {R1}; R1 = [200]1x1
+		
+			| 180 |
+		C =	| 130 |
+			| 50  |
+			| 70  |4x1
+			
+			| 40 |
+		A =	| 75 |
+			| 25 |
+			| 35 |4x1
+		
+		V = [200 - sum(Aj)] = [25]1x1
+		
+					| 140 |
+		Q = C - A = | 55  |
+					| 25  |
+					| 35  |4x1
+		
+		<P3, P4, P2, P1> => bezbedna sekvenca.
+		
+	6. Pitanje
+		a) virtuelna adresa iznosi 22 + 12 = 34b
+		b) fizička adresa iznosi 15 + 12 = 27b
+		c) offset iznosi 12b
+		d) u inverotvanoj tabeli ima 2^17 stavki, za svaku fizički adresu okvira
+		e) potrebno je dva pristupa memoriji, jedan za pristup tabeli, a drugi za pristup okviru
+		
+	7. Pitanje
+		a) Sličnost između Least Recently Used i Clock algoritma za zamenu stranica je u tome što pristup stranici koja je učitana će je zasigurno "sačuvati" od zamene za nekoliko koraka
+		b) Strnice koje će biti zamenjene redom
+			LRU algoritmom: 13., 36., 14., 5., 7., 20., 11., 2.
+			Clock algoritmom: 5., 20., 14., 36., 11., 7., 13., 2.
+			
+			Svaka zamena će promeniti bit upotrebe na jedan i upisati odgovarajuće vreme referenciranja
+			
+	8. 	a) OS vrši preemption procesa kada se pojavi proces višeg prioriteta u redu spremnih (Ready).
+		b) Moderni OS daju prednost izvršavanju procesima koji su U/I orijentisani, odnosno imaju kratke CPU faze.
+		Ovo se postiže uz pomoć većeg broja redova sa procesima različitih prioriteta gde short-term-scheduler kreće od reda najvišeg prioriteta i spušta se ka onim nižeg prioriteta.
+		Takođe, ovaj prioritet se često iznova računa i dinamički je, što znači da ukoliko proces menja "svoju" prirodu, biće mu i menjan prioritet.
+		
+	9. 	a) Kontinualno Ta = 21.2ms
+		b) Ulančano Ta = 130.4 ms
+		c) Indeksirano Ta = 1004 ms
+		
+	10. Vitualni file system je
+		
+		a) Potrebno je upisati novi blok ispred (prethodno) prvog bloka i izmeniti adresu prvog bloka u FCB, kao i dužinu (na 11)
+		b) Potrebno je postaviti link sledećeg bloka na novom bloku na vrednost trenutno prvog bloka, upisati ga i izmeniti sadržaj u FCB (adresa prvog bloka i dužina 11)
+		c) Potrebno je upisati novi blok u memoriju i izmeniti sadržaj indeksnog čvora (dodati na vrhu liste adresu novoupisanog bloka)
+		
+		Za sve ovo je potreno posle upisati i izmenjene FCB/indeks čvor na disk.

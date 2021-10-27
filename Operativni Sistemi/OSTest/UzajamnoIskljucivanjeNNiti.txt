@@ -1,0 +1,56 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <pthread.h>
+#include <semaphore.h>
+#include <unistd.h>
+
+int n;
+
+sem_t *semafori;
+
+void *P1(void *i)
+{
+	int localI = *(int*) i;
+	while(1)
+	{
+		sem_wait(&semafori[localI-1]);
+		
+		printf("Nit [%d]\n", localI);
+		
+		sem_post(&semafori[localI%n]);	
+		
+		sleep(1);
+	}
+}
+
+void main()
+{
+	printf("Unesite n: ");
+	scanf("%d", &n);
+	
+	semafori = (sem_t*) malloc(sizeof(sem_t) * n);
+	pthread_t* niti = (pthread_t*) malloc(sizeof(pthread_t) * n);
+	int* identifikatori = (int*) malloc(sizeof(int) * n);
+	
+
+	for(int i = 0; i < n; i++)
+	{
+		identifikatori[i] = i + 1;
+		sem_init(&semafori[i], 0, 0);
+		pthread_create(&niti[i], NULL, (void*) P1, (void*) &identifikatori[i]);
+	}
+	
+	sem_post(&semafori[0]);
+	
+	scanf("%d", &n);
+	
+	for(int i = 0; i < n; i++)
+	{
+		pthread_cancel(niti[i]);
+		sem_destroy(&semafori[i]);
+	}
+	
+	if(niti) free(niti);
+	if(identifikatori) free(identifikatori);
+	if(semafori) free(semafori);
+}

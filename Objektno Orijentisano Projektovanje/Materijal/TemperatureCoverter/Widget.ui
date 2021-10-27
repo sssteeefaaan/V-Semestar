@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>342</width>
+    <height>210</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Temperature Converter</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout">
+   <property name="spacing">
+    <number>9</number>
+   </property>
+   <item>
+    <widget class="QGroupBox" name="groupBoxCelsius">
+     <property name="title">
+      <string>Celsius</string>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QDial" name="dialCelsius">
+        <property name="minimum">
+         <number>-50</number>
+        </property>
+        <property name="maximum">
+         <number>100</number>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLCDNumber" name="lcdNumberCelsius"/>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="groupBoxFahrenheit">
+     <property name="title">
+      <string>Fahrenheit</string>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <widget class="QDial" name="dialFahrenheit">
+        <property name="minimum">
+         <number>-58</number>
+        </property>
+        <property name="maximum">
+         <number>212</number>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLCDNumber" name="lcdNumberFahrenheit"/>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>dialCelsius</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>lcdNumberCelsius</receiver>
+   <slot>display(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>87</x>
+     <y>81</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>87</x>
+     <y>164</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>dialFahrenheit</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>lcdNumberFahrenheit</receiver>
+   <slot>display(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>254</x>
+     <y>81</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>254</x>
+     <y>164</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

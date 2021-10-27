@@ -1,0 +1,13 @@
+﻿@page
+@using Server.Pages
+@model UpdateVideoKlubModel
+@{
+    Layout = "_Layout";
+    ViewData["Tittle"] = "Izmeni video klub";
+}
+<h1>Izmeni video klub "@Model.VKlub.Naziv"</h1>
+<form method="POST">
+    @Html.AntiForgeryToken()
+    <p><input type="text" name="VKlub.Naziv" value="@Model.VKlub.Naziv"></p>
+    <p><input type="submit" value="Izmeni"></p>
+</form>

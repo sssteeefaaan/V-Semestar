@@ -1,0 +1,25 @@
+fetch(
+	"https://localhost:5001/Calculator/DivideAll",
+	{
+		method:"POST",
+		headers:
+		{
+			"Content-Type": "application/json"
+		},
+		body: JSON.stringify([1, 2, 3, 4, 5, 6]) 
+	}
+).then(p=>p.json().then(q=>console.log(q))).catch(q=>console.error(q))
+
+Čitamo niz iz body-ja
+- Rezultat fetch je promise (string), koji je promise tipa json (vrednost -> JSONPromise -> Promise)
+- Greška ide u catch
+
+services.AddCors(p=>{
+	p.AddPolicy("CORS", builder =>{
+		builder.AllowAnyMethod()
+		.AllowAnyOrigin()
+		.AllowAnyHeader();
+	});
+});
+
+app.AddCors("CORS");

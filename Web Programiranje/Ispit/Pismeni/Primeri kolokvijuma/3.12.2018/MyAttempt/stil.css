@@ -1,0 +1,34 @@
+.Grad{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    border:1px solid black;
+}
+
+.GradHeader{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.GradPrikaz{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 200px;
+}
+
+.Podatak{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items:center;
+    border: 1px dotted black;
+    flex:1 1 100%;
+    margin:1%;
+    padding:1%;
+}
+
+.PodatakBar{
+   background-color: red;
+}

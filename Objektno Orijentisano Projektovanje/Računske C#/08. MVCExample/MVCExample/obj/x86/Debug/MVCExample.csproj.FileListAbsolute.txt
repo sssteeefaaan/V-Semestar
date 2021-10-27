@@ -1,0 +1,33 @@
+c:\users\pera\documents\visual studio 2010\Projects\MVCExample\MVCExample\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\pera\documents\visual studio 2010\Projects\MVCExample\MVCExample\obj\x86\Debug\MVCExample.FormCalc.resources
+c:\users\pera\documents\visual studio 2010\Projects\MVCExample\MVCExample\obj\x86\Debug\MVCExample.Properties.Resources.resources
+c:\users\pera\documents\visual studio 2010\Projects\MVCExample\MVCExample\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\pera\documents\visual studio 2010\Projects\MVCExample\MVCExample\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\pera\documents\visual studio 2010\Projects\MVCExample\MVCExample\bin\Debug\MVCExample.exe
+c:\users\pera\documents\visual studio 2010\Projects\MVCExample\MVCExample\bin\Debug\MVCExample.pdb
+c:\users\pera\documents\visual studio 2010\Projects\MVCExample\MVCExample\obj\x86\Debug\MVCExample.exe
+c:\users\pera\documents\visual studio 2010\Projects\MVCExample\MVCExample\obj\x86\Debug\MVCExample.pdb
+C:\Nastava\Objektno-orijentisano projektovanje\MVCExample\MVCExample\obj\x86\Debug\MVCExample.exe
+C:\Nastava\Objektno-orijentisano projektovanje\MVCExample\MVCExample\obj\x86\Debug\MVCExample.pdb
+C:\Nastava\Objektno-orijentisano projektovanje\MVCExample\MVCExample\bin\Debug\MVCExample.exe
+C:\Nastava\Objektno-orijentisano projektovanje\MVCExample\MVCExample\bin\Debug\MVCExample.pdb
+C:\Nastava\Objektno-orijentisano projektovanje\MVCExample\MVCExample\obj\x86\Debug\MVCExample.FormCalc.resources
+C:\Nastava\Objektno-orijentisano projektovanje\MVCExample\MVCExample\obj\x86\Debug\MVCExample.Properties.Resources.resources
+C:\Nastava\Objektno-orijentisano projektovanje\MVCExample\MVCExample\obj\x86\Debug\MVCExample.csprojResolveAssemblyReference.cache
+C:\Nastava\Objektno-orijentisano projektovanje\MVCExample\MVCExample\obj\x86\Debug\MVCExample.csproj.GenerateResource.Cache
+D:\Nastava\Objektno-orijentisano projektovanje\MVCExample\MVCExample\obj\x86\Debug\MVCExample.exe
+D:\Nastava\Objektno-orijentisano projektovanje\MVCExample\MVCExample\obj\x86\Debug\MVCExample.pdb
+D:\Nastava\Objektno-orijentisano projektovanje\MVCExample\MVCExample\bin\Debug\MVCExample.exe
+D:\Nastava\Objektno-orijentisano projektovanje\MVCExample\MVCExample\bin\Debug\MVCExample.pdb
+D:\Nastava\Objektno-orijentisano projektovanje\MVCExample\MVCExample\obj\x86\Debug\MVCExample.csprojResolveAssemblyReference.cache
+D:\Nastava\Objektno-orijentisano projektovanje\MVCExample\MVCExample\obj\x86\Debug\MVCExample.FormCalc.resources
+D:\Nastava\Objektno-orijentisano projektovanje\MVCExample\MVCExample\obj\x86\Debug\MVCExample.Properties.Resources.resources
+D:\Nastava\Objektno-orijentisano projektovanje\MVCExample\MVCExample\obj\x86\Debug\MVCExample.csproj.GenerateResource.Cache
+D:\Nastava\Objektno-orijentisano projektovanje\Do 2015\MVCExample\MVCExample\obj\x86\Debug\MVCExample.exe
+D:\Nastava\Objektno-orijentisano projektovanje\Do 2015\MVCExample\MVCExample\obj\x86\Debug\MVCExample.pdb
+D:\Nastava\Objektno-orijentisano projektovanje\Do 2015\MVCExample\MVCExample\bin\Debug\MVCExample.exe
+D:\Nastava\Objektno-orijentisano projektovanje\Do 2015\MVCExample\MVCExample\bin\Debug\MVCExample.pdb
+D:\Nastava\Objektno-orijentisano projektovanje\Do 2015\MVCExample\MVCExample\obj\x86\Debug\MVCExample.csprojResolveAssemblyReference.cache
+D:\Nastava\Objektno-orijentisano projektovanje\Do 2015\MVCExample\MVCExample\obj\x86\Debug\MVCExample.FormCalc.resources
+D:\Nastava\Objektno-orijentisano projektovanje\Do 2015\MVCExample\MVCExample\obj\x86\Debug\MVCExample.Properties.Resources.resources
+D:\Nastava\Objektno-orijentisano projektovanje\Do 2015\MVCExample\MVCExample\obj\x86\Debug\MVCExample.csproj.GenerateResource.Cache

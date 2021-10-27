@@ -1,0 +1,32 @@
+﻿@page
+@using TreciCas.Pages
+@model VrtoviModel
+@{
+    ViewData["Title"] = "Lista zooloških vrtova";
+    Layout = "_Layout";
+}
+@section Styles {
+    <link rel="stylesheet" href="Styles/Style.css">
+}
+<a class="novi" href="./CreateVrt">Kreiraj novi vrt</a>
+<table>
+    <tr>
+        <th>Zoološki vrt</th>
+        <th>Kapacitet</th>
+        <th>N</th>
+        <th>M</th>
+        <th>Edit</th>
+        <th>Delete</th>
+    </tr>
+    @foreach (var v in Model.Vrtovi)
+    {
+        <tr>
+            <td>@v.Naziv</td>
+            <td>@v.Kapacitet</td>
+            <td>@v.N</td>
+            <td>@v.M</td>
+            <td><a href="UpdateVrt?id=@v.ID">Edit</a></td>
+            <td><a href="DeleteVrt?id=@v.ID">Delete</a></td>
+        </tr>
+    }
+</table>

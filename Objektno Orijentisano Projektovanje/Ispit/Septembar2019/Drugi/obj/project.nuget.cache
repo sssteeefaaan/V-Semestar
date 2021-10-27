@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "/v+Zk+v6lW4IyAi0tEEt+UYC1OKt2lNxdNMkLVZE7MfICEp6YdTbL29YF7nUES8ImH60dK0FhjzzwsHH7VUlGg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\stefa\\Desktop\\Ispit\\Septembar2019\\Drugi\\Drugi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\stefa\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\stefa\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\stefa\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+    </head>
+    <body>
+        <div id="id1">Hello</div>
+        <script>
+
+            function globalna(){
+                console.log("Globalna funkcija.");
+            }
+
+            globalna();
+
+            function nadFunkcija(){
+                console.log("Pozvana nadfunkcija");
+                globalna();
+
+                lokalna();
+
+                function lokalna(){
+                    console.log("Lokalna funkcija.");
+                }
+
+                function fun(){
+                    lokalna();
+                }
+
+                lokalna();
+            }
+
+            // Greska (Opseg vazenja)
+            // lokalna();       Nije definisano spolja
+
+            nadFunkcija();
+
+
+            var x=5;
+            var y=6;
+
+            function zbir(a,b){ // prenos po vrednosti
+                a++;    // vidi se samo unutar funkcije
+                b++;
+                return a+b;
+            }
+
+            let rez=zbir(x,y);
+
+            console.log(rez , x, y);
+
+            // "PROSTI OBJEKTI"
+
+            var p=5;
+            var k=p;    // Dodeljuje se vrednost
+            k++;        // Inkrementira samo promenljiva k
+            console.log(p,k);
+
+            // "SLOŽENI OBJEKTI"
+            var d=document.getElementById("id1");   // Dodeljuje se referenca na objekat
+            d.style.background="rgb(255,0,0)";
+
+            var dref=d;                             // Referenca
+            dref.style.background="rgb(0,255,0)";
+            console.log(d.style.background);
+            dref=null;                              // Ne briše se objekat
+
+            console.log(d);
+            console.log(dref);
+
+            // Funkcijski izrazi
+
+            function f(a){
+                var fun=function fakt(a){
+                    // Postoji fakt(a);
+                    if(a<0)
+                        throw Error("Factorial is defined for natural numbers only!");
+                    if(a==0 || a==1)
+                        return 1;
+                    return a*fakt(a-1);
+                }
+                // Ne postoji fakt(a)
+                console.log(a + "! = " + fun(a));
+
+                // Funkciji fakt (referenca) možemo pristupiti preko imena fakt samo u njenom telu
+                // U ostalim slučajima, moramo pristupa preko promenljive fun, kao što je za console.log() urađeno.
+            }
+
+            f(5);
+
+
+
+            // Komunikacija sa korisnikom
+
+            // alert("Ćao pičko jedna seksipilna");    // print
+            // var t = prompt();                       // scanf
+            // alert(t);
+        </script>
+    </body>
+</html>

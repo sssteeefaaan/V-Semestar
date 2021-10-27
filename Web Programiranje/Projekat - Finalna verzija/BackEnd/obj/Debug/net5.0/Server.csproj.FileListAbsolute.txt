@@ -1,0 +1,518 @@
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\Server\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\Server\bin\Debug\net5.0\appsettings.json
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\Server\bin\Debug\net5.0\Server.exe
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\Server\bin\Debug\net5.0\Server.deps.json
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\Server\bin\Debug\net5.0\Server.runtimeconfig.json
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\Server\bin\Debug\net5.0\Server.runtimeconfig.dev.json
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\Server\bin\Debug\net5.0\Server.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\Server\bin\Debug\net5.0\ref\Server.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\Server\bin\Debug\net5.0\Server.pdb
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\Server\bin\Debug\net5.0\Humanizer.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\Server\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\Server\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\Server\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\Server\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\Server\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\Server\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\Server\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\Server\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\Server\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\Server\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\Server\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\Server\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\Server\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\Server\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\Server\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\Server\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\Server\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\Server\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\Server\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\Server\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\Server\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\Server\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\Server\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\Server\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\Server\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\Server\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\Server\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\Server\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\Server\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\Server\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\Server\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\Server\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\Server\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\Server\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\Server\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\Server\obj\Debug\net5.0\Server.csprojAssemblyReference.cache
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\Server\obj\Debug\net5.0\Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\Server\obj\Debug\net5.0\Server.AssemblyInfoInputs.cache
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\Server\obj\Debug\net5.0\Server.AssemblyInfo.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\Server\obj\Debug\net5.0\Server.csproj.CoreCompileInputs.cache
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\Server\obj\Debug\net5.0\Server.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\Server\obj\Debug\net5.0\Server.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\Server\obj\Debug\net5.0\staticwebassets\Server.StaticWebAssets.Manifest.cache
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\Server\obj\Debug\net5.0\staticwebassets\Server.StaticWebAssets.xml
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\Server\obj\Debug\net5.0\scopedcss\bundle\Server.styles.css
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\Server\obj\Debug\net5.0\Server.RazorTargetAssemblyInfo.cache
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\Server\obj\Debug\net5.0\Server.csproj.CopyComplete
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\Server\obj\Debug\net5.0\Server.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\Server\obj\Debug\net5.0\ref\Server.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\Server\obj\Debug\net5.0\Server.pdb
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\Server\obj\Debug\net5.0\Server.genruntimeconfig.cache
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\Server\bin\Debug\net5.0\Server.Views.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\Server\bin\Debug\net5.0\Server.Views.pdb
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\Server\obj\Debug\net5.0\Server.RazorAssemblyInfo.cache
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\Server\obj\Debug\net5.0\Server.RazorAssemblyInfo.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\Server\obj\Debug\net5.0\Server.TagHelpers.input.cache
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\Server\obj\Debug\net5.0\Server.TagHelpers.output.cache
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\Server\obj\Debug\net5.0\Server.RazorCoreGenerate.cache
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\Server\obj\Debug\net5.0\Razor\Pages\Index.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\Server\obj\Debug\net5.0\Razor\Pages\_Layout.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\Server\obj\Debug\net5.0\Server.RazorTargetAssemblyInfo.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\Server\obj\Debug\net5.0\Server.Views.pdb
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\Server\obj\Debug\net5.0\Razor\Pages\CreateDisciplina.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\Server\obj\Debug\net5.0\Razor\Pages\CreateTurnir.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\Server\obj\Debug\net5.0\Razor\Pages\CreateUcesnik.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\Server\obj\Debug\net5.0\Razor\Pages\DeleteTurnir.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\Server\obj\Debug\net5.0\Razor\Pages\DeleteUcesnik.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\Server\obj\Debug\net5.0\Razor\Pages\UpdateDisciplina.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\Server\obj\Debug\net5.0\Razor\Pages\UpdateTurnir.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\Server\obj\Debug\net5.0\Razor\Pages\UpdateUcesnik.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\Server\obj\Debug\net5.0\Razor\Pages\ViewDiscipline.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\Server\obj\Debug\net5.0\Razor\Pages\ViewDisciplineTurnira.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\Server\obj\Debug\net5.0\Razor\Pages\ViewTurniri.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\Server\obj\Debug\net5.0\Razor\Pages\ViewUcesnike.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\Server\obj\Debug\net5.0\Razor\Pages\ViewUcesnikeDiscipline.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\Server\obj\Debug\net5.0\Razor\Pages\DeleteDisciplina.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\Materijal\Web Programiranje\Projekat\Server\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\stefa\Documents\Faks\III godina\Materijal\Web Programiranje\Projekat\Server\bin\Debug\net5.0\appsettings.json
+C:\Users\stefa\Documents\Faks\III godina\Materijal\Web Programiranje\Projekat\Server\bin\Debug\net5.0\Server.exe
+C:\Users\stefa\Documents\Faks\III godina\Materijal\Web Programiranje\Projekat\Server\bin\Debug\net5.0\Server.deps.json
+C:\Users\stefa\Documents\Faks\III godina\Materijal\Web Programiranje\Projekat\Server\bin\Debug\net5.0\Server.runtimeconfig.json
+C:\Users\stefa\Documents\Faks\III godina\Materijal\Web Programiranje\Projekat\Server\bin\Debug\net5.0\Server.runtimeconfig.dev.json
+C:\Users\stefa\Documents\Faks\III godina\Materijal\Web Programiranje\Projekat\Server\bin\Debug\net5.0\Server.dll
+C:\Users\stefa\Documents\Faks\III godina\Materijal\Web Programiranje\Projekat\Server\bin\Debug\net5.0\ref\Server.dll
+C:\Users\stefa\Documents\Faks\III godina\Materijal\Web Programiranje\Projekat\Server\bin\Debug\net5.0\Server.pdb
+C:\Users\stefa\Documents\Faks\III godina\Materijal\Web Programiranje\Projekat\Server\bin\Debug\net5.0\Server.Views.dll
+C:\Users\stefa\Documents\Faks\III godina\Materijal\Web Programiranje\Projekat\Server\bin\Debug\net5.0\Server.Views.pdb
+C:\Users\stefa\Documents\Faks\III godina\Materijal\Web Programiranje\Projekat\Server\bin\Debug\net5.0\Humanizer.dll
+C:\Users\stefa\Documents\Faks\III godina\Materijal\Web Programiranje\Projekat\Server\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\stefa\Documents\Faks\III godina\Materijal\Web Programiranje\Projekat\Server\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+C:\Users\stefa\Documents\Faks\III godina\Materijal\Web Programiranje\Projekat\Server\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\stefa\Documents\Faks\III godina\Materijal\Web Programiranje\Projekat\Server\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\stefa\Documents\Faks\III godina\Materijal\Web Programiranje\Projekat\Server\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\stefa\Documents\Faks\III godina\Materijal\Web Programiranje\Projekat\Server\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\stefa\Documents\Faks\III godina\Materijal\Web Programiranje\Projekat\Server\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\stefa\Documents\Faks\III godina\Materijal\Web Programiranje\Projekat\Server\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\stefa\Documents\Faks\III godina\Materijal\Web Programiranje\Projekat\Server\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\stefa\Documents\Faks\III godina\Materijal\Web Programiranje\Projekat\Server\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\stefa\Documents\Faks\III godina\Materijal\Web Programiranje\Projekat\Server\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\stefa\Documents\Faks\III godina\Materijal\Web Programiranje\Projekat\Server\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\stefa\Documents\Faks\III godina\Materijal\Web Programiranje\Projekat\Server\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\stefa\Documents\Faks\III godina\Materijal\Web Programiranje\Projekat\Server\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\stefa\Documents\Faks\III godina\Materijal\Web Programiranje\Projekat\Server\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\stefa\Documents\Faks\III godina\Materijal\Web Programiranje\Projekat\Server\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\stefa\Documents\Faks\III godina\Materijal\Web Programiranje\Projekat\Server\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\stefa\Documents\Faks\III godina\Materijal\Web Programiranje\Projekat\Server\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\stefa\Documents\Faks\III godina\Materijal\Web Programiranje\Projekat\Server\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\stefa\Documents\Faks\III godina\Materijal\Web Programiranje\Projekat\Server\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\stefa\Documents\Faks\III godina\Materijal\Web Programiranje\Projekat\Server\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\stefa\Documents\Faks\III godina\Materijal\Web Programiranje\Projekat\Server\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\stefa\Documents\Faks\III godina\Materijal\Web Programiranje\Projekat\Server\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\stefa\Documents\Faks\III godina\Materijal\Web Programiranje\Projekat\Server\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\stefa\Documents\Faks\III godina\Materijal\Web Programiranje\Projekat\Server\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\stefa\Documents\Faks\III godina\Materijal\Web Programiranje\Projekat\Server\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\stefa\Documents\Faks\III godina\Materijal\Web Programiranje\Projekat\Server\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\stefa\Documents\Faks\III godina\Materijal\Web Programiranje\Projekat\Server\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\stefa\Documents\Faks\III godina\Materijal\Web Programiranje\Projekat\Server\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\stefa\Documents\Faks\III godina\Materijal\Web Programiranje\Projekat\Server\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\stefa\Documents\Faks\III godina\Materijal\Web Programiranje\Projekat\Server\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\stefa\Documents\Faks\III godina\Materijal\Web Programiranje\Projekat\Server\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\stefa\Documents\Faks\III godina\Materijal\Web Programiranje\Projekat\Server\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\stefa\Documents\Faks\III godina\Materijal\Web Programiranje\Projekat\Server\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\stefa\Documents\Faks\III godina\Materijal\Web Programiranje\Projekat\Server\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\stefa\Documents\Faks\III godina\Materijal\Web Programiranje\Projekat\Server\obj\Debug\net5.0\Server.csprojAssemblyReference.cache
+C:\Users\stefa\Documents\Faks\III godina\Materijal\Web Programiranje\Projekat\Server\obj\Debug\net5.0\Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\stefa\Documents\Faks\III godina\Materijal\Web Programiranje\Projekat\Server\obj\Debug\net5.0\Server.AssemblyInfoInputs.cache
+C:\Users\stefa\Documents\Faks\III godina\Materijal\Web Programiranje\Projekat\Server\obj\Debug\net5.0\Server.AssemblyInfo.cs
+C:\Users\stefa\Documents\Faks\III godina\Materijal\Web Programiranje\Projekat\Server\obj\Debug\net5.0\Server.csproj.CoreCompileInputs.cache
+C:\Users\stefa\Documents\Faks\III godina\Materijal\Web Programiranje\Projekat\Server\obj\Debug\net5.0\Server.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\stefa\Documents\Faks\III godina\Materijal\Web Programiranje\Projekat\Server\obj\Debug\net5.0\Server.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\stefa\Documents\Faks\III godina\Materijal\Web Programiranje\Projekat\Server\obj\Debug\net5.0\Server.RazorAssemblyInfo.cache
+C:\Users\stefa\Documents\Faks\III godina\Materijal\Web Programiranje\Projekat\Server\obj\Debug\net5.0\Server.RazorAssemblyInfo.cs
+C:\Users\stefa\Documents\Faks\III godina\Materijal\Web Programiranje\Projekat\Server\obj\Debug\net5.0\staticwebassets\Server.StaticWebAssets.Manifest.cache
+C:\Users\stefa\Documents\Faks\III godina\Materijal\Web Programiranje\Projekat\Server\obj\Debug\net5.0\staticwebassets\Server.StaticWebAssets.xml
+C:\Users\stefa\Documents\Faks\III godina\Materijal\Web Programiranje\Projekat\Server\obj\Debug\net5.0\scopedcss\bundle\Server.styles.css
+C:\Users\stefa\Documents\Faks\III godina\Materijal\Web Programiranje\Projekat\Server\obj\Debug\net5.0\Server.TagHelpers.input.cache
+C:\Users\stefa\Documents\Faks\III godina\Materijal\Web Programiranje\Projekat\Server\obj\Debug\net5.0\Server.TagHelpers.output.cache
+C:\Users\stefa\Documents\Faks\III godina\Materijal\Web Programiranje\Projekat\Server\obj\Debug\net5.0\Server.RazorCoreGenerate.cache
+C:\Users\stefa\Documents\Faks\III godina\Materijal\Web Programiranje\Projekat\Server\obj\Debug\net5.0\Razor\Pages\CreateDisciplina.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\Materijal\Web Programiranje\Projekat\Server\obj\Debug\net5.0\Razor\Pages\CreateTurnir.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\Materijal\Web Programiranje\Projekat\Server\obj\Debug\net5.0\Razor\Pages\CreateUcesnik.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\Materijal\Web Programiranje\Projekat\Server\obj\Debug\net5.0\Razor\Pages\DeleteDisciplina.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\Materijal\Web Programiranje\Projekat\Server\obj\Debug\net5.0\Razor\Pages\DeleteTurnir.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\Materijal\Web Programiranje\Projekat\Server\obj\Debug\net5.0\Razor\Pages\DeleteUcesnik.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\Materijal\Web Programiranje\Projekat\Server\obj\Debug\net5.0\Razor\Pages\Index.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\Materijal\Web Programiranje\Projekat\Server\obj\Debug\net5.0\Razor\Pages\UpdateDisciplina.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\Materijal\Web Programiranje\Projekat\Server\obj\Debug\net5.0\Razor\Pages\UpdateTurnir.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\Materijal\Web Programiranje\Projekat\Server\obj\Debug\net5.0\Razor\Pages\UpdateUcesnik.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\Materijal\Web Programiranje\Projekat\Server\obj\Debug\net5.0\Razor\Pages\ViewDiscipline.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\Materijal\Web Programiranje\Projekat\Server\obj\Debug\net5.0\Razor\Pages\ViewDisciplineTurnira.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\Materijal\Web Programiranje\Projekat\Server\obj\Debug\net5.0\Razor\Pages\ViewTurniri.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\Materijal\Web Programiranje\Projekat\Server\obj\Debug\net5.0\Razor\Pages\ViewUcesnike.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\Materijal\Web Programiranje\Projekat\Server\obj\Debug\net5.0\Razor\Pages\ViewUcesnikeDiscipline.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\Materijal\Web Programiranje\Projekat\Server\obj\Debug\net5.0\Razor\Pages\_Layout.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\Materijal\Web Programiranje\Projekat\Server\obj\Debug\net5.0\Server.RazorTargetAssemblyInfo.cache
+C:\Users\stefa\Documents\Faks\III godina\Materijal\Web Programiranje\Projekat\Server\obj\Debug\net5.0\Server.RazorTargetAssemblyInfo.cs
+C:\Users\stefa\Documents\Faks\III godina\Materijal\Web Programiranje\Projekat\Server\obj\Debug\net5.0\Server.Views.pdb
+C:\Users\stefa\Documents\Faks\III godina\Materijal\Web Programiranje\Projekat\Server\obj\Debug\net5.0\Server.csproj.CopyComplete
+C:\Users\stefa\Documents\Faks\III godina\Materijal\Web Programiranje\Projekat\Server\obj\Debug\net5.0\Server.dll
+C:\Users\stefa\Documents\Faks\III godina\Materijal\Web Programiranje\Projekat\Server\obj\Debug\net5.0\ref\Server.dll
+C:\Users\stefa\Documents\Faks\III godina\Materijal\Web Programiranje\Projekat\Server\obj\Debug\net5.0\Server.pdb
+C:\Users\stefa\Documents\Faks\III godina\Materijal\Web Programiranje\Projekat\Server\obj\Debug\net5.0\Server.genruntimeconfig.cache
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\BackEnd\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\BackEnd\bin\Debug\net5.0\appsettings.json
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\BackEnd\bin\Debug\net5.0\Server.exe
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\BackEnd\bin\Debug\net5.0\Server.deps.json
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\BackEnd\bin\Debug\net5.0\Server.runtimeconfig.json
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\BackEnd\bin\Debug\net5.0\Server.runtimeconfig.dev.json
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\BackEnd\bin\Debug\net5.0\Server.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\BackEnd\bin\Debug\net5.0\ref\Server.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\BackEnd\bin\Debug\net5.0\Server.pdb
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\BackEnd\bin\Debug\net5.0\Server.Views.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\BackEnd\bin\Debug\net5.0\Server.Views.pdb
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\BackEnd\bin\Debug\net5.0\Humanizer.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\BackEnd\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\BackEnd\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\BackEnd\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\BackEnd\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\BackEnd\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\BackEnd\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\BackEnd\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\BackEnd\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\BackEnd\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\BackEnd\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\BackEnd\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\BackEnd\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\BackEnd\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\BackEnd\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\BackEnd\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\BackEnd\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\BackEnd\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\BackEnd\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\BackEnd\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\BackEnd\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\BackEnd\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\BackEnd\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\BackEnd\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\BackEnd\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\BackEnd\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\BackEnd\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\BackEnd\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\BackEnd\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\BackEnd\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\BackEnd\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\BackEnd\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\BackEnd\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\BackEnd\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\BackEnd\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\BackEnd\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\BackEnd\obj\Debug\net5.0\Server.csprojAssemblyReference.cache
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\BackEnd\obj\Debug\net5.0\Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\BackEnd\obj\Debug\net5.0\Server.AssemblyInfoInputs.cache
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\BackEnd\obj\Debug\net5.0\Server.AssemblyInfo.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\BackEnd\obj\Debug\net5.0\Server.csproj.CoreCompileInputs.cache
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\BackEnd\obj\Debug\net5.0\Server.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\BackEnd\obj\Debug\net5.0\Server.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\BackEnd\obj\Debug\net5.0\Server.RazorAssemblyInfo.cache
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\BackEnd\obj\Debug\net5.0\Server.RazorAssemblyInfo.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\BackEnd\obj\Debug\net5.0\staticwebassets\Server.StaticWebAssets.Manifest.cache
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\BackEnd\obj\Debug\net5.0\staticwebassets\Server.StaticWebAssets.xml
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\BackEnd\obj\Debug\net5.0\scopedcss\bundle\Server.styles.css
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\BackEnd\obj\Debug\net5.0\Server.TagHelpers.input.cache
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\BackEnd\obj\Debug\net5.0\Server.TagHelpers.output.cache
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\BackEnd\obj\Debug\net5.0\Server.RazorCoreGenerate.cache
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\BackEnd\obj\Debug\net5.0\Razor\Pages\CreateDisciplina.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\BackEnd\obj\Debug\net5.0\Razor\Pages\CreateTurnir.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\BackEnd\obj\Debug\net5.0\Razor\Pages\CreateUcesnik.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\BackEnd\obj\Debug\net5.0\Razor\Pages\DeleteDisciplina.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\BackEnd\obj\Debug\net5.0\Razor\Pages\DeleteTurnir.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\BackEnd\obj\Debug\net5.0\Razor\Pages\DeleteUcesnik.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\BackEnd\obj\Debug\net5.0\Razor\Pages\Index.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\BackEnd\obj\Debug\net5.0\Razor\Pages\UpdateDisciplina.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\BackEnd\obj\Debug\net5.0\Razor\Pages\UpdateTurnir.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\BackEnd\obj\Debug\net5.0\Razor\Pages\UpdateUcesnik.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\BackEnd\obj\Debug\net5.0\Razor\Pages\ViewDiscipline.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\BackEnd\obj\Debug\net5.0\Razor\Pages\ViewDisciplineTurnira.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\BackEnd\obj\Debug\net5.0\Razor\Pages\ViewTurniri.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\BackEnd\obj\Debug\net5.0\Razor\Pages\ViewUcesnike.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\BackEnd\obj\Debug\net5.0\Razor\Pages\ViewUcesnikeDiscipline.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\BackEnd\obj\Debug\net5.0\Razor\Pages\_Layout.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\BackEnd\obj\Debug\net5.0\Server.RazorTargetAssemblyInfo.cache
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\BackEnd\obj\Debug\net5.0\Server.RazorTargetAssemblyInfo.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\BackEnd\obj\Debug\net5.0\Server.Views.pdb
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\BackEnd\obj\Debug\net5.0\Server.csproj.CopyComplete
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\BackEnd\obj\Debug\net5.0\Server.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\BackEnd\obj\Debug\net5.0\ref\Server.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\BackEnd\obj\Debug\net5.0\Server.pdb
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat\BackEnd\obj\Debug\net5.0\Server.genruntimeconfig.cache
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Copy (2)\BackEnd\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Copy (2)\BackEnd\bin\Debug\net5.0\appsettings.json
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Copy (2)\BackEnd\bin\Debug\net5.0\Server.exe
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Copy (2)\BackEnd\bin\Debug\net5.0\Server.deps.json
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Copy (2)\BackEnd\bin\Debug\net5.0\Server.runtimeconfig.json
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Copy (2)\BackEnd\bin\Debug\net5.0\Server.runtimeconfig.dev.json
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Copy (2)\BackEnd\bin\Debug\net5.0\Server.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Copy (2)\BackEnd\bin\Debug\net5.0\ref\Server.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Copy (2)\BackEnd\bin\Debug\net5.0\Server.pdb
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Copy (2)\BackEnd\bin\Debug\net5.0\Server.Views.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Copy (2)\BackEnd\bin\Debug\net5.0\Server.Views.pdb
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Copy (2)\BackEnd\bin\Debug\net5.0\Humanizer.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Copy (2)\BackEnd\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Copy (2)\BackEnd\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Copy (2)\BackEnd\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Copy (2)\BackEnd\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Copy (2)\BackEnd\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Copy (2)\BackEnd\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Copy (2)\BackEnd\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Copy (2)\BackEnd\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Copy (2)\BackEnd\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Copy (2)\BackEnd\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Copy (2)\BackEnd\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Copy (2)\BackEnd\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Copy (2)\BackEnd\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Copy (2)\BackEnd\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Copy (2)\BackEnd\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Copy (2)\BackEnd\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Copy (2)\BackEnd\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Copy (2)\BackEnd\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Copy (2)\BackEnd\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Copy (2)\BackEnd\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Copy (2)\BackEnd\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Copy (2)\BackEnd\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Copy (2)\BackEnd\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Copy (2)\BackEnd\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Copy (2)\BackEnd\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Copy (2)\BackEnd\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Copy (2)\BackEnd\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Copy (2)\BackEnd\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Copy (2)\BackEnd\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Copy (2)\BackEnd\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Copy (2)\BackEnd\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Copy (2)\BackEnd\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Copy (2)\BackEnd\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Copy (2)\BackEnd\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Copy (2)\BackEnd\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Copy (2)\BackEnd\obj\Debug\net5.0\Server.csprojAssemblyReference.cache
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Copy (2)\BackEnd\obj\Debug\net5.0\Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Copy (2)\BackEnd\obj\Debug\net5.0\Server.AssemblyInfoInputs.cache
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Copy (2)\BackEnd\obj\Debug\net5.0\Server.AssemblyInfo.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Copy (2)\BackEnd\obj\Debug\net5.0\Server.csproj.CoreCompileInputs.cache
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Copy (2)\BackEnd\obj\Debug\net5.0\Server.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Copy (2)\BackEnd\obj\Debug\net5.0\Server.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Copy (2)\BackEnd\obj\Debug\net5.0\Server.RazorAssemblyInfo.cache
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Copy (2)\BackEnd\obj\Debug\net5.0\Server.RazorAssemblyInfo.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Copy (2)\BackEnd\obj\Debug\net5.0\staticwebassets\Server.StaticWebAssets.Manifest.cache
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Copy (2)\BackEnd\obj\Debug\net5.0\staticwebassets\Server.StaticWebAssets.xml
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Copy (2)\BackEnd\obj\Debug\net5.0\scopedcss\bundle\Server.styles.css
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Copy (2)\BackEnd\obj\Debug\net5.0\Server.TagHelpers.input.cache
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Copy (2)\BackEnd\obj\Debug\net5.0\Server.TagHelpers.output.cache
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Copy (2)\BackEnd\obj\Debug\net5.0\Server.RazorCoreGenerate.cache
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Copy (2)\BackEnd\obj\Debug\net5.0\Razor\Pages\CreateDisciplina.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Copy (2)\BackEnd\obj\Debug\net5.0\Razor\Pages\CreateTurnir.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Copy (2)\BackEnd\obj\Debug\net5.0\Razor\Pages\CreateUcesnik.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Copy (2)\BackEnd\obj\Debug\net5.0\Razor\Pages\DeleteDisciplina.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Copy (2)\BackEnd\obj\Debug\net5.0\Razor\Pages\DeleteTurnir.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Copy (2)\BackEnd\obj\Debug\net5.0\Razor\Pages\DeleteUcesnik.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Copy (2)\BackEnd\obj\Debug\net5.0\Razor\Pages\Index.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Copy (2)\BackEnd\obj\Debug\net5.0\Razor\Pages\UpdateDisciplina.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Copy (2)\BackEnd\obj\Debug\net5.0\Razor\Pages\UpdateTurnir.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Copy (2)\BackEnd\obj\Debug\net5.0\Razor\Pages\UpdateUcesnik.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Copy (2)\BackEnd\obj\Debug\net5.0\Razor\Pages\ViewDiscipline.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Copy (2)\BackEnd\obj\Debug\net5.0\Razor\Pages\ViewDisciplineTurnira.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Copy (2)\BackEnd\obj\Debug\net5.0\Razor\Pages\ViewTurniri.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Copy (2)\BackEnd\obj\Debug\net5.0\Razor\Pages\ViewUcesnike.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Copy (2)\BackEnd\obj\Debug\net5.0\Razor\Pages\ViewUcesnikeDiscipline.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Copy (2)\BackEnd\obj\Debug\net5.0\Razor\Pages\_Layout.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Copy (2)\BackEnd\obj\Debug\net5.0\Server.RazorTargetAssemblyInfo.cache
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Copy (2)\BackEnd\obj\Debug\net5.0\Server.RazorTargetAssemblyInfo.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Copy (2)\BackEnd\obj\Debug\net5.0\Server.Views.pdb
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Copy (2)\BackEnd\obj\Debug\net5.0\Server.csproj.CopyComplete
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Copy (2)\BackEnd\obj\Debug\net5.0\Server.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Copy (2)\BackEnd\obj\Debug\net5.0\ref\Server.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Copy (2)\BackEnd\obj\Debug\net5.0\Server.pdb
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Copy (2)\BackEnd\obj\Debug\net5.0\Server.genruntimeconfig.cache
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat (v1)\BackEnd\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat (v1)\BackEnd\bin\Debug\net5.0\appsettings.json
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat (v1)\BackEnd\bin\Debug\net5.0\Server.exe
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat (v1)\BackEnd\bin\Debug\net5.0\Server.deps.json
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat (v1)\BackEnd\bin\Debug\net5.0\Server.runtimeconfig.json
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat (v1)\BackEnd\bin\Debug\net5.0\Server.runtimeconfig.dev.json
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat (v1)\BackEnd\bin\Debug\net5.0\Server.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat (v1)\BackEnd\bin\Debug\net5.0\ref\Server.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat (v1)\BackEnd\bin\Debug\net5.0\Server.pdb
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat (v1)\BackEnd\bin\Debug\net5.0\Server.Views.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat (v1)\BackEnd\bin\Debug\net5.0\Server.Views.pdb
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat (v1)\BackEnd\bin\Debug\net5.0\Humanizer.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat (v1)\BackEnd\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat (v1)\BackEnd\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat (v1)\BackEnd\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat (v1)\BackEnd\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat (v1)\BackEnd\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat (v1)\BackEnd\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat (v1)\BackEnd\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat (v1)\BackEnd\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat (v1)\BackEnd\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat (v1)\BackEnd\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat (v1)\BackEnd\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat (v1)\BackEnd\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat (v1)\BackEnd\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat (v1)\BackEnd\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat (v1)\BackEnd\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat (v1)\BackEnd\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat (v1)\BackEnd\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat (v1)\BackEnd\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat (v1)\BackEnd\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat (v1)\BackEnd\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat (v1)\BackEnd\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat (v1)\BackEnd\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat (v1)\BackEnd\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat (v1)\BackEnd\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat (v1)\BackEnd\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat (v1)\BackEnd\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat (v1)\BackEnd\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat (v1)\BackEnd\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat (v1)\BackEnd\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat (v1)\BackEnd\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat (v1)\BackEnd\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat (v1)\BackEnd\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat (v1)\BackEnd\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat (v1)\BackEnd\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat (v1)\BackEnd\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat (v1)\BackEnd\obj\Debug\net5.0\Server.csprojAssemblyReference.cache
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat (v1)\BackEnd\obj\Debug\net5.0\Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat (v1)\BackEnd\obj\Debug\net5.0\Server.AssemblyInfoInputs.cache
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat (v1)\BackEnd\obj\Debug\net5.0\Server.AssemblyInfo.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat (v1)\BackEnd\obj\Debug\net5.0\Server.csproj.CoreCompileInputs.cache
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat (v1)\BackEnd\obj\Debug\net5.0\Server.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat (v1)\BackEnd\obj\Debug\net5.0\Server.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat (v1)\BackEnd\obj\Debug\net5.0\Server.RazorAssemblyInfo.cache
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat (v1)\BackEnd\obj\Debug\net5.0\Server.RazorAssemblyInfo.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat (v1)\BackEnd\obj\Debug\net5.0\staticwebassets\Server.StaticWebAssets.Manifest.cache
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat (v1)\BackEnd\obj\Debug\net5.0\staticwebassets\Server.StaticWebAssets.xml
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat (v1)\BackEnd\obj\Debug\net5.0\scopedcss\bundle\Server.styles.css
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat (v1)\BackEnd\obj\Debug\net5.0\Server.TagHelpers.input.cache
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat (v1)\BackEnd\obj\Debug\net5.0\Server.TagHelpers.output.cache
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat (v1)\BackEnd\obj\Debug\net5.0\Server.RazorCoreGenerate.cache
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat (v1)\BackEnd\obj\Debug\net5.0\Razor\Pages\CreateDisciplina.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat (v1)\BackEnd\obj\Debug\net5.0\Razor\Pages\CreateTurnir.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat (v1)\BackEnd\obj\Debug\net5.0\Razor\Pages\CreateUcesnik.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat (v1)\BackEnd\obj\Debug\net5.0\Razor\Pages\DeleteDisciplina.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat (v1)\BackEnd\obj\Debug\net5.0\Razor\Pages\DeleteTurnir.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat (v1)\BackEnd\obj\Debug\net5.0\Razor\Pages\DeleteUcesnik.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat (v1)\BackEnd\obj\Debug\net5.0\Razor\Pages\Index.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat (v1)\BackEnd\obj\Debug\net5.0\Razor\Pages\UpdateDisciplina.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat (v1)\BackEnd\obj\Debug\net5.0\Razor\Pages\UpdateTurnir.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat (v1)\BackEnd\obj\Debug\net5.0\Razor\Pages\UpdateUcesnik.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat (v1)\BackEnd\obj\Debug\net5.0\Razor\Pages\ViewDiscipline.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat (v1)\BackEnd\obj\Debug\net5.0\Razor\Pages\ViewDisciplineTurnira.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat (v1)\BackEnd\obj\Debug\net5.0\Razor\Pages\ViewTurniri.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat (v1)\BackEnd\obj\Debug\net5.0\Razor\Pages\ViewUcesnike.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat (v1)\BackEnd\obj\Debug\net5.0\Razor\Pages\ViewUcesnikeDiscipline.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat (v1)\BackEnd\obj\Debug\net5.0\Razor\Pages\_Layout.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat (v1)\BackEnd\obj\Debug\net5.0\Server.RazorTargetAssemblyInfo.cache
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat (v1)\BackEnd\obj\Debug\net5.0\Server.RazorTargetAssemblyInfo.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat (v1)\BackEnd\obj\Debug\net5.0\Server.Views.pdb
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat (v1)\BackEnd\obj\Debug\net5.0\Server.csproj.CopyComplete
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat (v1)\BackEnd\obj\Debug\net5.0\Server.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat (v1)\BackEnd\obj\Debug\net5.0\ref\Server.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat (v1)\BackEnd\obj\Debug\net5.0\Server.pdb
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat (v1)\BackEnd\obj\Debug\net5.0\Server.genruntimeconfig.cache
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat (v1)\BackEnd\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.Certificate.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Finalna verzija\BackEnd\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Finalna verzija\BackEnd\bin\Debug\net5.0\appsettings.json
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Finalna verzija\BackEnd\bin\Debug\net5.0\Server.exe
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Finalna verzija\BackEnd\bin\Debug\net5.0\Server.deps.json
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Finalna verzija\BackEnd\bin\Debug\net5.0\Server.runtimeconfig.json
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Finalna verzija\BackEnd\bin\Debug\net5.0\Server.runtimeconfig.dev.json
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Finalna verzija\BackEnd\bin\Debug\net5.0\Server.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Finalna verzija\BackEnd\bin\Debug\net5.0\ref\Server.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Finalna verzija\BackEnd\bin\Debug\net5.0\Server.pdb
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Finalna verzija\BackEnd\bin\Debug\net5.0\Server.Views.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Finalna verzija\BackEnd\bin\Debug\net5.0\Server.Views.pdb
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Finalna verzija\BackEnd\bin\Debug\net5.0\Humanizer.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Finalna verzija\BackEnd\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.Certificate.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Finalna verzija\BackEnd\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Finalna verzija\BackEnd\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Finalna verzija\BackEnd\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Finalna verzija\BackEnd\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Finalna verzija\BackEnd\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Finalna verzija\BackEnd\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Finalna verzija\BackEnd\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Finalna verzija\BackEnd\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Finalna verzija\BackEnd\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Finalna verzija\BackEnd\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Finalna verzija\BackEnd\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Finalna verzija\BackEnd\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Finalna verzija\BackEnd\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Finalna verzija\BackEnd\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Finalna verzija\BackEnd\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Finalna verzija\BackEnd\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Finalna verzija\BackEnd\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Finalna verzija\BackEnd\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Finalna verzija\BackEnd\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Finalna verzija\BackEnd\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Finalna verzija\BackEnd\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Finalna verzija\BackEnd\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Finalna verzija\BackEnd\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Finalna verzija\BackEnd\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Finalna verzija\BackEnd\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Finalna verzija\BackEnd\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Finalna verzija\BackEnd\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Finalna verzija\BackEnd\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Finalna verzija\BackEnd\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Finalna verzija\BackEnd\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Finalna verzija\BackEnd\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Finalna verzija\BackEnd\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Finalna verzija\BackEnd\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Finalna verzija\BackEnd\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Finalna verzija\BackEnd\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Finalna verzija\BackEnd\obj\Debug\net5.0\Server.csprojAssemblyReference.cache
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Finalna verzija\BackEnd\obj\Debug\net5.0\Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Finalna verzija\BackEnd\obj\Debug\net5.0\Server.AssemblyInfoInputs.cache
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Finalna verzija\BackEnd\obj\Debug\net5.0\Server.AssemblyInfo.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Finalna verzija\BackEnd\obj\Debug\net5.0\Server.csproj.CoreCompileInputs.cache
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Finalna verzija\BackEnd\obj\Debug\net5.0\Server.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Finalna verzija\BackEnd\obj\Debug\net5.0\Server.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Finalna verzija\BackEnd\obj\Debug\net5.0\Server.RazorAssemblyInfo.cache
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Finalna verzija\BackEnd\obj\Debug\net5.0\Server.RazorAssemblyInfo.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Finalna verzija\BackEnd\obj\Debug\net5.0\staticwebassets\Server.StaticWebAssets.Manifest.cache
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Finalna verzija\BackEnd\obj\Debug\net5.0\staticwebassets\Server.StaticWebAssets.xml
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Finalna verzija\BackEnd\obj\Debug\net5.0\scopedcss\bundle\Server.styles.css
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Finalna verzija\BackEnd\obj\Debug\net5.0\Server.TagHelpers.input.cache
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Finalna verzija\BackEnd\obj\Debug\net5.0\Server.TagHelpers.output.cache
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Finalna verzija\BackEnd\obj\Debug\net5.0\Server.RazorCoreGenerate.cache
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Finalna verzija\BackEnd\obj\Debug\net5.0\Razor\Pages\CreateDisciplina.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Finalna verzija\BackEnd\obj\Debug\net5.0\Razor\Pages\CreateTurnir.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Finalna verzija\BackEnd\obj\Debug\net5.0\Razor\Pages\CreateUcesnik.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Finalna verzija\BackEnd\obj\Debug\net5.0\Razor\Pages\DeleteDisciplina.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Finalna verzija\BackEnd\obj\Debug\net5.0\Razor\Pages\DeleteTurnir.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Finalna verzija\BackEnd\obj\Debug\net5.0\Razor\Pages\DeleteUcesnik.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Finalna verzija\BackEnd\obj\Debug\net5.0\Razor\Pages\Index.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Finalna verzija\BackEnd\obj\Debug\net5.0\Razor\Pages\UpdateDisciplina.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Finalna verzija\BackEnd\obj\Debug\net5.0\Razor\Pages\UpdateTurnir.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Finalna verzija\BackEnd\obj\Debug\net5.0\Razor\Pages\UpdateUcesnik.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Finalna verzija\BackEnd\obj\Debug\net5.0\Razor\Pages\ViewDiscipline.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Finalna verzija\BackEnd\obj\Debug\net5.0\Razor\Pages\ViewDisciplineTurnira.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Finalna verzija\BackEnd\obj\Debug\net5.0\Razor\Pages\ViewTurniri.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Finalna verzija\BackEnd\obj\Debug\net5.0\Razor\Pages\ViewUcesnike.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Finalna verzija\BackEnd\obj\Debug\net5.0\Razor\Pages\ViewUcesnikeDiscipline.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Finalna verzija\BackEnd\obj\Debug\net5.0\Razor\Pages\_Layout.cshtml.g.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Finalna verzija\BackEnd\obj\Debug\net5.0\Server.RazorTargetAssemblyInfo.cache
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Finalna verzija\BackEnd\obj\Debug\net5.0\Server.RazorTargetAssemblyInfo.cs
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Finalna verzija\BackEnd\obj\Debug\net5.0\Server.Views.pdb
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Finalna verzija\BackEnd\obj\Debug\net5.0\Server.csproj.CopyComplete
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Finalna verzija\BackEnd\obj\Debug\net5.0\Server.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Finalna verzija\BackEnd\obj\Debug\net5.0\ref\Server.dll
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Finalna verzija\BackEnd\obj\Debug\net5.0\Server.pdb
+C:\Users\stefa\Documents\Faks\III godina\V semestar\Web Programiranje\Projekat - Finalna verzija\BackEnd\obj\Debug\net5.0\Server.genruntimeconfig.cache

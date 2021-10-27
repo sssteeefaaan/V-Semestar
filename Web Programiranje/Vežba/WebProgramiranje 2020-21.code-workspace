@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "Čas 2"
+		},
+		{
+			"path": "Čas 3"
+		},
+		{
+			"path": "Čas 4"
+		},
+		{
+			"path": "Čas 5"
+		},
+		{
+			"path": "Čas 6"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Čas 6"
+	}
+}

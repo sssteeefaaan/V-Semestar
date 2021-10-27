@@ -1,0 +1,19 @@
+﻿@page
+@using Server.Pages
+@model CreateTurnirModel
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Napravi novi turnir";
+}
+@section Style{
+    <link rel="stylesheet" href="Styles/FormStil.css">
+}
+<div class="Container">
+    <h1>Unesite naziv novog turnira:</h1>
+    <form method="POST">
+        @Html.AntiForgeryToken()
+        <p><input type="text" name="Turnir.Naziv" placeholder="Naziv novog turnira"></p>
+        <p><input type="number" name="Turnir.MaxDisciplina" placeholder="Maksimalni broj disciplina"></p>
+        <p><input type="submit" value="Dodaj novi turnir"></p>
+    </form>
+</div>

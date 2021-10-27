@@ -1,0 +1,35 @@
+﻿@page
+@using Server.Pages
+@model ViewUcesnikeDisciplineModel
+@{
+    Layout="_Layout";
+    ViewData["Title"]="Lista učesnika";
+}
+@section Style{
+    <link rel="stylesheet" href="Styles/Stil.css">
+}
+@section Scripts{
+    <script src="Scripts/ScriptViewUcesnici.js"></script>
+}
+<h1>Lista učesnika discipline: '@Model.Disciplina.Naziv'</h1>
+<table>
+    <tr>
+        <th>Ime</th>
+        <th>Prezime</th>
+        <th>Brzina</th>
+        <th>Rang</th>
+        <th>Izmeni</th>
+        <th>Obriši</th>
+    </tr>
+    @foreach(var item in Model.Ucesnici)
+    {
+        <tr>
+            <td>@item.Ime</td>
+            <td>@item.Prezime</td>
+            <td>@item.Brzina</td>
+            <td>@item.Rang</td>
+            <td><a href="./UpdateUcesnik?turnirID=@item.TurnirID&disciplinaID=@item.DisciplinaID&ucesnikID=@item.ID">Izmenite učesnika</a></td>
+            <td><a href="./DeleteUcesnik?turnirID=@item.TurnirID&disciplinaID=@item.DisciplinaID&ucesnikID=@item.ID">Obrišite učesnika</a></td>
+        </tr>
+    }
+</table>
