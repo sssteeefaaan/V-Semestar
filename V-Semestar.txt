@@ -1,0 +1,27 @@
+- Engleski jezik:
+	- Predavanja: https://www.youtube.com/watch?v=hHWlyopLRtc&list=PLWLPHZCdUNsN3VrvAyIG0jr7B_jT2JXqv
+
+
+- Objektno Orijentisano Projektovanje:
+	- Sve: https://www.youtube.com/watch?v=qa0cD2DGHzU&list=PLWLPHZCdUNsNxzKoWs742sj4glwwGQXe0
+	- Predavanja: https://www.youtube.com/watch?v=qa0cD2DGHzU&list=PLWLPHZCdUNsPmBlre0-EV8yX_QLIUq-ch
+	- Računske vežbe: https://www.youtube.com/watch?v=_N9yBye3qdw&list=PLWLPHZCdUNsMrme8_p9eD91K5G8CofFo4
+
+
+- Operativni Sistemi:
+	- Sve: https://www.youtube.com/watch?v=wNFc-Af01AU&list=PLWLPHZCdUNsPye9FSU4h5CdOVMshBn3Ch
+	- Predavanja: https://www.youtube.com/watch?v=wNFc-Af01AU&list=PLWLPHZCdUNsMqYukmb3_OVxKc-_OqfaAX
+	- Računske vežbe: https://www.youtube.com/watch?v=wEQf5S5c7Rs&list=PLWLPHZCdUNsOHy8GQCqUNeMPHeAmn9uwn
+	- Laboratorijske vežbe: https://www.youtube.com/watch?v=nhoqMsvK-UM&list=PLWLPHZCdUNsOqqpTIgkloVXuPODRUEfin
+
+
+- Računarske Mreže:
+	- Sve: https://www.youtube.com/watch?v=-9Dj-9RKiC8&list=PLWLPHZCdUNsOZ-pH922fFe5ITeumn9rmw
+	- Predavanja: https://www.youtube.com/watch?v=-9Dj-9RKiC8&list=PLWLPHZCdUNsOmCR6N-o5jWkLTORVyTFoM
+	- Računske vežbe: https://www.youtube.com/watch?v=04ww6Xb7wdQ&list=PLWLPHZCdUNsMOTu82p5PkMuG2scXkwOOG
+
+
+- Web Programiranje:
+	- Sve: https://www.youtube.com/watch?v=aoGAn0RmGQg&list=PLWLPHZCdUNsOrngznKiOJ3lPvXv2CTCpo
+	- Predavanja: https://www.youtube.com/watch?v=zvrxem_CMJw&list=PLWLPHZCdUNsNRRj2yuU05ufKgXcL-Tz5u
+	- Računske vežbe: https://www.youtube.com/watch?v=aoGAn0RmGQg&list=PLWLPHZCdUNsMK_fuIcG7cMdfADoIF7TpF
